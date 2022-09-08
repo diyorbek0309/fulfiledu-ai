@@ -43,12 +43,61 @@
 .teacher-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    column-gap: 40px;
 }
 
 .teacher-img img {
     width: 589px;
     height: 589px;
+}
+
+.text-info__flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-info__top {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Gilroy;
+    line-height: 30px;
+    color: #193c3f;
+}
+
+.text-info__middle {
+    font-size: 60px;
+    font-family: Staatliches;
+    font-weight: 400;
+    line-height: 55px;
+    color: #193c3f;
+}
+
+.text-info__middle span {
+    color: #19a852;
+}
+
+.text-info__bottom {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #193c3f;
+}
+
+.button-teacher button {
+    width: 320px;
+    height: 50px;
+    padding: 13px, 98px, 13px, 98px;
+    background: #19a852;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+}
+
+.text-info__flex img {
+    width: 22px;
+    height: 15.05px;
 }
 
 
@@ -58,9 +107,35 @@
 /* Responsive  start*/
 
 @media (max-width: 768px) {
+    .teacher-box {
+        justify-content: space-evenly;
+    }
     .teacher-img img {
         width: 335px;
         height: 335px;
+    }
+    .button-teacher button {
+        width: 334px;
+        height: 48px;
+    }
+    .text-info__flex img {
+        width: 18px;
+        height: 12.32px;
+    }
+    .text-info__bottom {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22.5px;
+    }
+    .text-info__top {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22.5px;
+    }
+    .text-info__middle {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
     }
 }
 

@@ -15,6 +15,25 @@
     margin: 0 auto;
 }
 
+.btn {
+    width: 320px;
+    height: 50px;
+    padding: 13px 98px;
+    border-radius: 12px;
+    border: #19A852;
+    background-color: #19A852;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    color: #19A852;
+    border: 2px solid #19A852 ;
+  }
 
 /* General CSS tugadi */
 
@@ -47,3 +66,279 @@
 
 
 /* Responsive  end*/
+
+/* For_whom boshlandi */
+.for_whom {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .kurs_kimlar_uchun{
+      width: 75rem;
+      padding: 0px 5rem;
+      height: 28rem;
+    }
+    
+    .for_whom_heading p {
+      font-family: Staatliches;
+      font-size: 3.75rem;
+      font-weight: 400;
+      color: #193C3F;
+    }
+    
+    .for_whom_heading span {
+      color: #19A852;
+    }
+    
+    .mini_sections {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row  wrap;
+    }
+    
+    .box_ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 1.8rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid  #ABD8C4;
+    }
+    
+    .box_ellipse img {
+      width: 4.3rem;
+      height: 4.3rem;
+    }
+
+    .for_whom_box {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      background-color: #EFFEF5;
+      width: 24.1rem;
+      height: 19rem;
+    }
+
+.for_whom_text {
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 125%;
+color: #193C3F;
+}
+
+.info_text {
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+/* line-height: 140%; */
+color: #34423A;
+text-align: center;
+margin: 0 1.8rem 1.8rem 1.8rem;
+}
+
+.for_whom_btn  {
+  margin-top: 40px;
+}
+
+.for_whom_btn .btn:hover {
+  background-color: transparent;
+  color: #19A852;
+  border: 2px solid #19A852 ;
+}
+
+.join_us {
+margin: 11px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #567763;
+
+}
+
+.green_color1 {
+  color: #19A852;
+}
+@media(min-width: 1441px) {
+  .kurs_kimlar_uchun{
+    padding: 0px 120px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .for_whom_box {
+    width: 20rem;
+    height: 16rem;
+  }
+
+  .box_ellipse img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .box_ellipse {
+    margin-top: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid  #ABD8C4;
+    }
+
+    .for_whom_text {
+      font-size: 1.5rem;
+      }
+      
+      .info_text {
+      font-size: 0.8rem;
+      margin: 0 1.5rem 1.5rem 1.5rem;
+      }
+
+      .kurs_kimlar_uchun{
+        width: 65rem;
+        padding: 0px 5rem;
+        height: 28rem;
+      }
+      .for_whom_heading p {
+        font-size: 3rem;
+      }
+
+      .for_whom_btn .btn {
+        width: 17.5rem;
+        height: 2.5rem;
+        padding: 0.5rem 4rem;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 875px) {
+      .for_whom_box {
+        width: 11rem;
+        height: 7rem;
+      }
+      
+      .mini_sections{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .box_ellipse img {
+        width: 1.4rem;
+        height: 1.4rem;
+      }
+    
+      .box_ellipse {
+        margin-top: 0.4rem;
+        width: 2.3rem;
+        height: 2.3rem;
+        border-radius: 50%;
+        }
+    
+        .for_whom_text {
+          font-size: 0.55rem;
+          }
+          
+          .info_text {
+          font-size: 0.45rem;
+          margin: 0 0.5rem 0.5rem 0.5rem;
+          }
+    
+          .kurs_kimlar_uchun{
+            width: 40rem;
+            padding: 0px 3rem;
+            height: 28rem;
+          }
+          .for_whom_heading p {
+            font-size: 1.5rem;
+          }
+    
+          .for_whom_btn .btn {
+            width: 10rem;
+            height: 1.8rem;
+            padding: 0.3rem 1rem ;
+            font-size: 11px;
+          }
+
+          .join_us {
+            font-size: 8px;;
+        }
+
+        .for_whom_btn  {
+          margin-top: 25px;
+        }
+
+      }
+
+      @media (min-width: 876px) and (max-width: 1024px) {
+        .for_whom_box {
+          width: 13rem;
+          height: 9rem;
+        }
+        
+        .mini_sections{
+          display: flex;
+          justify-content: space-around;
+        }
+  
+        .box_ellipse img {
+          width: 1.6rem;
+          height: 1.6rem;
+        }
+      
+        .box_ellipse {
+          margin-top: 0.6rem;
+          width: 2.7rem;
+          height: 2.7rem;
+          border-radius: 50%;
+          }
+      
+          .for_whom_text {
+            font-size: 0.7rem;
+            }
+            
+            .info_text {
+            font-size: 0.5rem;
+            margin: 0 0.6rem 0.6rem 0.6rem;
+            }
+      
+            .kurs_kimlar_uchun{
+              width: 48rem;
+              padding: 0px 2.5rem;
+              height: 28rem;
+            }
+            .for_whom_heading p {
+              font-size: 1.7rem;
+            }
+      
+            .for_whom_btn .btn {
+              width: 12rem;
+              height: 2.2rem;
+              padding: 0.5rem 1.2rem ;
+              font-size: 13px;
+            }
+  
+            .join_us {
+              font-size: 10px;;
+          }
+  
+          .for_whom_btn  {
+            margin-top: 25px;
+          }
+  
+        }
+    
+    
+    
+    
+    /* For_whom tugadi */
+    

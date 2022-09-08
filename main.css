@@ -1,13 +1,49 @@
 /* General CSS boshlandi */
 
 @font-face {
-  font-family: Gilroy;
-  src: url("./assets/fonts/Gilroy-Regular.ttf");
+    font-family: Gilroy;
+    src: url("./assets/fonts/Gilroy-Regular.ttf");
 }
 
 @font-face {
-  font-family: Staatliches;
-  src: url("./assets/fonts/Staatliches-Regular.ttf");
+    font-family: Staatliches;
+    src: url("./assets/fonts/Staatliches-Regular.ttf");
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 /* General CSS tugadi */
+
+
+/* Teacher styles start */
+
+.teacher-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teacher-img img {
+    width: 589px;
+    height: 589px;
+}
+
+
+/* Teacher styles end */
+
+
+/* Responsive  start*/
+
+@media (max-width: 768px) {
+    .teacher-img img {
+        width: 335px;
+        height: 335px;
+    }
+}
+
+
+/* Responsive  end*/

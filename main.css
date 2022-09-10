@@ -9,33 +9,314 @@
     font-family: Staatliches;
     src: url("./assets/fonts/Staatliches-Regular.ttf");
 }
-
+body{
+  margin: 0;
+}
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
-.btn {
-    width: 320px;
-    height: 50px;
-    padding: 13px 98px;
-    border-radius: 12px;
-    border: #19A852;
-    background-color: #19A852;
-    color: #fff;
-    font-family: 'Gilroy';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-  }
+.container-start {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
 
-  .btn:hover {
-    background-color: transparent;
-    color: #19A852;
-    border: 2px solid #19A852 ;
-  }
+
+.btn {
+  padding: 13px 100px;
+  border-radius: 12px;
+  border: #19a852;
+  background-color: #19a852;
+  color: #fff;
+  font-family: "Gilroy";
+  font-weight: 600;
+  border: 1px solid #19a852;
+  font-size: 18px;
+  line-height: 22px;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #19a852;
+  border: 1px solid #19a852;
+}
 
 /* General CSS tugadi */
+
+/* Navbar Css  Start*/
+
+nav {
+  width: 100%;
+  background: #effef5;
+  padding: 10px 0;
+}
+
+.navbar img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menubtn {
+  border: none;
+  background: transparent;
+  margin-left: -60px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  color: #193c3f;
+  display: none;
+}
+
+.navbar ul {
+  display: inline-block;
+  margin-top: 17px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #193c3f;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #193c3f;
+}
+
+.navbar ul li a:hover {
+  color: #7219a8;
+}
+
+.navbar .phone {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .phone img {
+  display: inline-block;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 59px;
+  height: 59px;
+  margin-right: 20px;
+}
+
+.navbar .phone p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #567763;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.navbar .phone h1 {
+  display: inline-block;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #193c3f;
+  margin: 0;
+}
+
+.navbar .btnbg {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #193c3f;
+  padding: 10px 80px;
+  border: 1px solid #19a852;
+  border-radius: 10px;
+  margin-top: 7px;
+  background-color: transparent;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.navbar .btnbg:hover {
+  background-color: #19a852;
+  color: #fff;
+}
+
+/* Navbar Css End  */
+
+.green {
+  color: #19a852;
+}
+
+/* Hero section style start  */
+
+#hero {
+  padding: 30px 0;
+  width: 100%;
+  background: #effef5;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.hero-contents {
+  display: grid;
+  grid-template-columns: 44% auto;
+  grid-template-rows: auto;
+}
+
+.hero-first-content {
+  padding-right: 12px;
+}
+
+.hero-first-content h1 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125%;
+  color: #193c3f;
+}
+
+.hero-first-content .question-section {
+  background: #e4fbed;
+  border: 1px dashed #abd8c4;
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+}
+
+.hero-first-content .question-section .undov {
+  background-color: #19a852;
+  border-radius: 50%;
+  padding: 5px 12px;
+  margin: 0 10px;
+  display: inline-block;
+  color: #fff;
+}
+
+.hero-first-content .question-section .question {
+  font-family: "Gilroy";
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0;
+  color: #34423a;
+}
+
+.hero-first-content h2 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #193c3f;
+  border-bottom: 1px dashed #193c3f;
+  display: inline-block;
+}
+
+.hero-first-content .cashbac {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #567763;
+}
+
+.hero-second-content {
+  padding-left: 12px;
+  position: relative;
+}
+
+.hero-second-content .image-right img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 741px;
+  height: 694px;
+}
+
+.hero-second-content .image-right .ellepse {
+  width: 612px;
+  height: 612px;
+  background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
+  border-radius: 50%;
+}
+
+.hero-second-content .image-right .ellepse-under {
+  width: 692px;
+  height: 693px;
+  border: 1px dashed #3cb27f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lessons {
+  position: absolute;
+  top: 86%;
+  right: 50px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+}
+
+.lesson {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #abd8c4;
+  backdrop-filter: blur(15px);
+  border-radius: 18px;
+  padding: 25px 0 0 0;
+  width: 259px;
+  height: 151px;
+  text-align: center;
+}
+
+.lesson h3 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  margin: 0;
+  background: -webkit-linear-gradient(180deg, #19a852 -34.48%, #193c3f 137.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lesson p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/* Hero section style end  */
 
 
 /* Teacher styles start */
@@ -103,10 +384,179 @@
 
 /* Teacher styles end */
 
+/* FOOTER SECTION START  */
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background: #effef5;
+  padding: 40px 0;
+}
+
+.footer h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #193c3f;
+}
+
+/* FOOTER SECTION END  */
+
+
 
 /* Responsive  start*/
 
 @media (max-width: 768px) {
+   /* NAVBAR Responsive START  */
+   .navbar img {
+    display: inline-block;
+    width: 65px;
+    height: auto;
+  }
+
+  .menubtn {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbtn {
+    display: none;
+  }
+
+  .navbar .phone img {
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+    margin-right: 13px;
+    padding: 5px;
+  }
+
+  .navbar .phone p {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .navbar .phone h1 {
+    font-size: 16px;
+  }
+
+  /* NAVBAR Responsive end  */
+
+  /* HERO SECTION Responsive START  */
+
+  .hero-contents {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+
+  #hero {
+    position: relative;
+    padding-bottom: 120px;
+  }
+
+  .hero-first-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero-first-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-first-content .question-section {
+    display: grid;
+    grid-template-columns: 18% 85%;
+    align-items: center;
+  }
+
+  .hero-first-content .question-section .undov {
+    padding: 3px 10px;
+    margin: 0 7px 18px 7px;
+  }
+
+  .hero-first-content .question-section .question {
+    font-size: 16px;
+  }
+
+  .hero-first-content h2 {
+    font-size: 20px;
+  }
+
+  .hero-second-content {
+    padding-right: 12px;
+    grid-row-start: 1;
+  }
+
+  .hero-second-content .image-right .ellepse-under {
+    width: 334px;
+    height: 330px;
+    border: 1px dashed #3cb27f;
+    border-radius: 50%;
+    margin-left: -30px;
+  }
+
+  .hero-second-content .image-right .ellepse {
+    width: 300px;
+    height: 302px;
+    background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
+    border-radius: 50%;
+  }
+
+  .hero-second-content .image-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 334px;
+    height: 330px;
+  }
+
+  .image-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .lessons {
+    position: absolute;
+    top: 94%;
+    right: 13px;
+    width: 340px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+  }
+
+  .lesson {
+    border-radius: 18px;
+    padding: 10px 0 10px 0;
+    width: 162px;
+    height: 124px;
+    text-align: center;
+  }
+
+  .lesson h3 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .lesson p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  /* HERO SECTION Responsive END  */
+
+
     .teacher-box {
         justify-content: space-evenly;
     }
@@ -137,6 +587,13 @@
         font-weight: 400;
         line-height: 40px;
     }
+
+    /* FOOTER RESPONSIVE SECTION START  */
+
+  .footer h1 {
+    font-size: 14px;
+  }
+  /* FOOTER RESPONSIVE SECTION END  */
 }
 
 

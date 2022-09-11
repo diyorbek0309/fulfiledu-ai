@@ -458,8 +458,8 @@ nav {
   .btn {
     padding: 13px 0px;
     border-radius: 12px;
-    width: 96%;
-    margin: 0 2%;
+    width: 100%;
+    margin: 0;
   }
   .hero-contents {
     display: grid;

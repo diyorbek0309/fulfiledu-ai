@@ -24,7 +24,7 @@ body{
 
 
 .btn {
-  padding: 13px 100px;
+  padding: 13px 95px;
   border-radius: 12px;
   border: #19a852;
   background-color: #19a852;
@@ -45,120 +45,7 @@ body{
 
 /* General CSS tugadi */
 
-/* Navbar Css  Start*/
 
-nav {
-  width: 100%;
-  background: #effef5;
-  padding: 10px 0;
-}
-
-.navbar img {
-  display: inline-block;
-  width: 100px;
-  height: auto;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menubtn {
-  border: none;
-  background: transparent;
-  margin-left: -60px;
-  cursor: pointer;
-  transition: 0.5s ease;
-  color: #193c3f;
-  display: none;
-}
-
-.navbar ul {
-  display: inline-block;
-  margin-top: 17px;
-}
-
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #193c3f;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #193c3f;
-}
-
-.navbar ul li a:hover {
-  color: #7219a8;
-}
-
-.navbar .phone {
-  display: inline-block;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar .phone img {
-  display: inline-block;
-  border: 1px solid #333;
-  border-radius: 50%;
-  width: 59px;
-  height: 59px;
-  margin-right: 20px;
-}
-
-.navbar .phone p {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #567763;
-  margin-top: 8px;
-  margin-bottom: 0;
-}
-
-.navbar .phone h1 {
-  display: inline-block;
-  font-family: "Staatliches";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
-  color: #193c3f;
-  margin: 0;
-}
-
-.navbar .btnbg {
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #193c3f;
-  padding: 10px 80px;
-  border: 1px solid #19a852;
-  border-radius: 10px;
-  margin-top: 7px;
-  background-color: transparent;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-
-.navbar .btnbg:hover {
-  background-color: #19a852;
-  color: #fff;
-}
-
-/* Navbar Css End  */
 
 .green {
   color: #19a852;
@@ -413,44 +300,7 @@ nav {
 /* Responsive  start*/
 
 @media (max-width: 768px) {
-   /* NAVBAR Responsive START  */
-   .navbar img {
-    display: inline-block;
-    width: 65px;
-    height: auto;
-  }
-
-  .menubtn {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-
-  .navbtn {
-    display: none;
-  }
-
-  .navbar .phone img {
-    width: 30px;
-    height: 30px;
-    margin-top: 0;
-    margin-right: 13px;
-    padding: 5px;
-  }
-
-  .navbar .phone p {
-    font-size: 12px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .navbar .phone h1 {
-    font-size: 16px;
-  }
-
-  /* NAVBAR Responsive end  */
+   
 
   /* HERO SECTION Responsive START  */
 

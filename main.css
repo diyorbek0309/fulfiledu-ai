@@ -536,17 +536,17 @@ nav {
   .lessons {
     position: absolute;
     top: 94%;
-    right: 13px;
-    width: 340px;
+    left: 8%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 45%);
     align-items: center;
   }
 
   .lesson {
     border-radius: 18px;
     padding: 10px 0 10px 0;
-    width: 162px;
+    width: 145px;
     height: 124px;
     text-align: center;
   }

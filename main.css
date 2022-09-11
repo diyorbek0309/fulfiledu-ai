@@ -303,7 +303,12 @@ body{
    
 
   /* HERO SECTION Responsive START  */
-
+  .btn {
+    padding: 13px 0px;
+    border-radius: 12px;
+    width: 96%;
+    margin: 0 2%;
+  }
   .hero-contents {
     display: grid;
     grid-template-columns: 100%;

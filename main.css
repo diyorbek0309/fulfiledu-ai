@@ -974,7 +974,7 @@ color: #567763;
             }
           }
         
-          @media (min-width:380px) and (max-width:479px) {
+          @media (min-width:320px) and (max-width:479px) {
             
             
             .mini_sections {

@@ -1,5 +1,7 @@
 /* General CSS boshlandi */
-
+.for_spans{
+  color: #19a852;
+}
 @font-face {
     font-family: Gilroy;
     src: url("./assets/fonts/Gilroy-Regular.ttf");
@@ -879,4 +881,18 @@ color: #567763;
     
     
     /* For_whom tugadi */
-    
+    /* extra__chance boshlandi */
+    .extra__chance{
+      display: flex;
+      margin-top: 7rem;
+    }
+    .chence__text> h2,.apply__me> h2{
+    font-family: Staatliches;
+    font-size: 3.75rem;
+    font-weight: 400;
+    }
+    .chence__text{
+      width: 32rem;
+      padding-left: 4rem;
+    }
+    /* extra__chance tugadi */

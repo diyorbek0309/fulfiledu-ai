@@ -955,6 +955,7 @@ color: #567763;
 
           .for_whom_btn .btn {
             margin: 0 2rem;
+            width: 20rem;
           }
 
           .join_us {
@@ -1001,8 +1002,8 @@ color: #567763;
             }
   
             .join_us {
-              margin: 1rem -1.5rem ;
-              font-size: 0.8rem;
+              margin: 1rem -0.8rem ;
+              font-size: 0.7rem;
             }
   
             .for_whom_box {
@@ -1035,13 +1036,9 @@ color: #567763;
                   .info_text {
                   font-size: 0.5rem;
                   margin: 0 1.2rem 1.2rem 1.2rem;
-                  }
-            
-                  
-              
-            
-              
+                  } 
             }
+
     
     
     

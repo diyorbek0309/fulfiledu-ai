@@ -24,7 +24,7 @@ body{
 
 
 .btn {
-  padding: 13px 100px;
+  padding: 13px 95px;
   border-radius: 12px;
   border: #19a852;
   background-color: #19a852;
@@ -44,6 +44,7 @@ body{
 }
 
 /* General CSS tugadi */
+
 
 /* Navbar Css  Start*/
 
@@ -159,6 +160,7 @@ nav {
 }
 
 /* Navbar Css End  */
+
 
 .green {
   color: #19a852;
@@ -413,47 +415,52 @@ nav {
 /* Responsive  start*/
 
 @media (max-width: 768px) {
-   /* NAVBAR Responsive START  */
-   .navbar img {
-    display: inline-block;
-    width: 65px;
-    height: auto;
-  }
-
-  .menubtn {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-
-  .navbtn {
-    display: none;
-  }
-
-  .navbar .phone img {
-    width: 30px;
-    height: 30px;
-    margin-top: 0;
-    margin-right: 13px;
-    padding: 5px;
-  }
-
-  .navbar .phone p {
-    font-size: 12px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .navbar .phone h1 {
-    font-size: 16px;
-  }
-
-  /* NAVBAR Responsive end  */
+    /* NAVBAR Responsive START  */
+    .navbar img {
+      display: inline-block;
+      width: 65px;
+      height: auto;
+    }
+  
+    .menubtn {
+      display: block;
+    }
+  
+    .navbar ul {
+      display: none;
+    }
+  
+    .navbtn {
+      display: none;
+    }
+  
+    .navbar .phone img {
+      width: 30px;
+      height: 30px;
+      margin-top: 0;
+      margin-right: 13px;
+      padding: 5px;
+    }
+  
+    .navbar .phone p {
+      font-size: 12px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    .navbar .phone h1 {
+      font-size: 16px;
+    }
+  
+    /* NAVBAR Responsive end  */
 
   /* HERO SECTION Responsive START  */
-
+  .btn {
+    padding: 13px 0px;
+    border-radius: 12px;
+    width: 100%;
+    margin: 0;
+  }
   .hero-contents {
     display: grid;
     grid-template-columns: 100%;
@@ -529,17 +536,17 @@ nav {
   .lessons {
     position: absolute;
     top: 94%;
-    right: 13px;
-    width: 340px;
+    left: 8%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 45%);
     align-items: center;
   }
 
   .lesson {
     border-radius: 18px;
     padding: 10px 0 10px 0;
-    width: 162px;
+    width: 145px;
     height: 124px;
     text-align: center;
   }

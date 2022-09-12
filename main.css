@@ -992,10 +992,12 @@ color: #567763;
             .for_whom_btn {
               display: flex;
               flex-flow: column wrap;
+              margin: 1rem 1.4rem;
             }
   
             .for_whom_btn .btn {
               margin: 0 0rem;
+              width: 18rem;
             }
   
             .join_us {
@@ -1005,7 +1007,7 @@ color: #567763;
   
             .for_whom_box {
               margin-top: 25px ;
-              margin: 25px 3.3rem 0 2.8rem;
+              margin: 25px 3rem 0 2.6rem;
               width: 16rem;
                 height: 12rem;
               }

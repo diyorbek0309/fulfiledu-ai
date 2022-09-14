@@ -1049,15 +1049,73 @@ color: #567763;
     /* extra__chance boshlandi */
     .extra__chance{
       display: flex;
-      margin-top: 7rem;
+      margin:5rem 7.5rem
     }
     .chence__text> h2,.apply__me> h2{
     font-family: Staatliches;
     font-size: 3.75rem;
     font-weight: 400;
+    width: 39.5rem;
+    line-height: 125%;
     }
     .chence__text{
       width: 32rem;
-      padding-left: 4rem;
+      padding-left: 3.5rem;
+    }
+    .chence__text> p{
+    width: 37.5rem;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    }
+    .apply__me{
+      margin:5rem 7.5rem
+    }   
+    .varnning{
+      display: flex;
+    }
+    .varnning> p{
+      margin-left: 0.75rem;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    }
+    .apply__me> p{
+      width: 38.6rem;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    }
+    .form__info{
+      box-sizing: border-box;
+      height: 3rem;
+      width: 536px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .form__info> input{
+      width: 498px;
+      align-items: center;
+      padding: 13px 18px;
+      height: 48px;
+      background: #EFF5F2;
+      border: 1px solid #B1CBBB;
+      border-radius: 12px;
+
+    }
+    .apply__right{
+      position: relative;
+      left: 771px;
+      top: -343px;
+    }
+    .apply__right> img:nth-child(2){
+      position: relative;
+      top: 7.5rem;
     }
     /* extra__chance tugadi */

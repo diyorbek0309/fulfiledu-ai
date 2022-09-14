@@ -987,7 +987,8 @@ color: #567763;
   
             .kurs_kimlar_uchun{
               height: 80rem;
-              padding: 0 1.5rem;
+              padding: 0 0rem;
+              margin: 0 1.8rem;
             }
   
             .for_whom_btn {
@@ -998,7 +999,7 @@ color: #567763;
   
             .for_whom_btn .btn {
               margin: 0 0rem;
-              width: 18rem;
+              width: 20rem;
             }
   
             .join_us {
@@ -1008,9 +1009,8 @@ color: #567763;
   
             .for_whom_box {
               margin-top: 25px ;
-              margin: 25px 3rem 0 2.6rem;
-              width: 16rem;
-                height: 12rem;
+              width: 19rem;
+              height: 12rem;
               }
   
               .for_whom_heading p {

@@ -164,6 +164,9 @@ nav {
 .green {
   color: #19a852;
 }
+.w900 {
+  font-weight: 900;
+}
 
 /* Hero section style start  */
 
@@ -543,6 +546,82 @@ nav {
 
 /* FEEDBACK SECTION STYLES END  */
 
+/* WHY-COURSE SECTION STYLES START  */
+
+#why_course {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.all-why-course {
+  padding: 30px 0;
+  background: #effef5;
+}
+.all-why-course h1 {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 60px;
+  line-height: 125%;
+  color: #193c3f;
+  margin: 10px 0 20px 0;
+}
+
+.all-reasons {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 255px 255px;
+  gap: 2%;
+}
+
+.reason {
+  background: #e4fbed;
+  border: 1px dashed #abd8c4;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.reason .rimg {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #abd8c4;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.reason img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.reason h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: #193c3f;
+  margin: 5px 0;
+}
+
+.reason p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #193c3f;
+}
+/* WHY-COURSE SECTION STYLES END  */
+
 /* FOOTER SECTION START  */
 
 .footer {
@@ -789,6 +868,45 @@ nav {
     height: 52px;
   }
   /* FEEDBACK RESPONSIVE STYLE END  */
+
+  /* WHY-COURSE RESPONSIVE STYLE START  */
+
+  .all-why-course h1 {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .all-reasons {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 1%;
+    text-align: center;
+  }
+  .all-why-course {
+    padding: 30px 0 100px 0;
+  }
+  .reason .rimg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .reason img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .reason h2 {
+    font-size: 18px;
+  }
+
+  .reason p {
+    font-size: 14px;
+  }
+
+  /* WHY-COURSE RESPONSIVE STYLE END  */
 
   /* FOOTER RESPONSIVE SECTION START  */
 

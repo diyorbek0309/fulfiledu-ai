@@ -1047,30 +1047,38 @@ color: #567763;
     
     /* For_whom tugadi */
     /* extra__chance boshlandi */
+
+    .extra__chance_container {
+      margin-top: 100px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
     .extra__chance{
       display: flex;
-      margin:5rem 7.5rem
+      justify-content: space-between;
+      align-items: center;
     }
     .chence__text> h2,.apply__me> h2{
     font-family: Staatliches;
     font-size: 3.75rem;
     font-weight: 400;
-    width: 39.5rem;
-    line-height: 125%;
     }
-    .chence__text{
-      width: 32rem;
-      padding-left: 3.5rem;
+
+    .extra-chance-img {
+      margin-right: 50px;
+      margin-left: 5 0px;
     }
+
     .chence__text> p{
-    width: 37.5rem;
     font-family: 'Gilroy';
     font-weight: 400;
     font-size: 20px;
-    line-height: 140%;
     }
     .apply__me{
-      margin:5rem 7.5rem
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-top: 100px;
     }   
     .varnning{
       display: flex;
@@ -1081,26 +1089,21 @@ color: #567763;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 140%;
     }
     .apply__me> p{
-      width: 38.6rem;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 140%;
     }
     .form__info{
       box-sizing: border-box;
       height: 3rem;
-      width: 536px;
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
     }
     .form__info> input{
-      width: 498px;
       align-items: center;
       padding: 13px 18px;
       height: 48px;
@@ -1111,11 +1114,66 @@ color: #567763;
     }
     .apply__right{
       position: relative;
-      left: 771px;
-      top: -343px;
+      margin-top: -60px;
     }
     .apply__right> img:nth-child(2){
       position: relative;
       top: 7.5rem;
     }
+
+    .apply-flex-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    #bottom-top-icon {
+      position: absolute;
+      top: 100%;
+      transform: scale(0.9);
+    }
+
+    @media(max-width: 1400px){
+      .extra-chance-img {
+        width: 500px;
+        margin-right: 50px;
+      }
+    }
+
+    @media(max-width: 1290px){
+      .chence__text {
+        width: 400px;
+        padding-right: 50px;
+      }
+    }
+
+    @media(max-width: 1400px){
+      .extra-chance-img {
+        width: 300px;
+      }
+      .chence__text {
+        width: 500px;
+      }
+    }
+
+    @media(max-width: 1000px){
+      .extra__chance {
+        flex-wrap: wrap;
+        margin-top: 0;
+      }
+      .extra-chance-img {
+        margin: auto;
+      }
+      .chence__text {
+        margin: auto;
+      }
+    }
+
+    @media(max-width: 700px){
+      .apply__right {
+        display: none;
+      }
+    }
+
+
     /* extra__chance tugadi */

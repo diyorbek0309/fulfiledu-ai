@@ -1,5 +1,5 @@
 /* General CSS boshlandi */
-.for_spans{
+.for_spans {
   color: #19a852;
 }
 @font-face {
@@ -15,12 +15,12 @@ body {
   margin: 0;
 }
 .container {
-  width: 90%;
+  width: 84%;
   margin: 0 auto;
 }
 
 .container-start {
-  width: 95%;
+  width: 92%;
   margin: 0 0 0 auto;
 }
 
@@ -177,8 +177,9 @@ nav {
 
 .hero-contents {
   display: grid;
-  grid-template-columns: 44% auto;
+  grid-template-columns: 41% auto;
   grid-template-rows: auto;
+  column-gap: 1.5rem;
 }
 
 .hero-first-content {
@@ -254,20 +255,19 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  width: 741px;
-  height: 694px;
+  width: 760px;
 }
 
 .hero-second-content .image-right .ellepse {
-  width: 612px;
-  height: 612px;
+  width: 680px;
+  height: 680px;
   background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
   border-radius: 50%;
 }
 
 .hero-second-content .image-right .ellepse-under {
-  width: 692px;
-  height: 693px;
+  width: 760px;
+  height: 760px;
   border: 1px dashed #3cb27f;
   border-radius: 50%;
   display: flex;
@@ -277,8 +277,8 @@ nav {
 
 .lessons {
   position: absolute;
-  top: 86%;
-  right: 50px;
+  top: 89%;
+  right: 5rem;
   width: 600px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -324,7 +324,7 @@ nav {
 .teacher-box {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 40px;
+  column-gap: 5rem;
 }
 
 .teacher-img img {
@@ -336,6 +336,10 @@ nav {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.text-info__flex p {
+  margin: 0.75rem 0;
 }
 
 .text-info__top {
@@ -382,6 +386,71 @@ nav {
 }
 
 /* Teacher styles end */
+
+/* About Course section start */
+
+#about_course .about_course_left_wrap p,
+#about_course .about_course_left_wrap h3 {
+  margin: 0;
+}
+
+#about_course {
+  background-color: #effef5;
+  font-family: Gilroy, sans-serif;
+}
+
+.about_course_title {
+  font-size: 3.75rem;
+  padding: 3.75rem 0 2.5rem 0;
+  margin: 0;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  line-height: 125%;
+  color: #193c3f;
+  text-transform: uppercase;
+}
+
+.about_course_left_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  row-gap: 1rem;
+}
+
+.about_course_item {
+  width: 210px;
+  padding: 1rem;
+  background: #e4fbed;
+  border: 1px dashed #abd8c4;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.about_course_item_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #193c3f;
+  padding-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about_course_item_title span:first-child {
+  background-color: #daf5e5;
+  color: #193c3f;
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.about_course_item p {
+  line-height: 140%;
+  color: #34423a;
+}
+
+/* About Course section end */
 
 /* FEEDBACK SECTION STYLES START  */
 
@@ -678,44 +747,43 @@ nav {
   /* FEEDBACK RESPONSIVE STYLE START  */
 
   .all-feedback h1 {
-  font-size: 32px;
-}
+    font-size: 32px;
+  }
   .comments-first {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     gap: 5%;
-}
+  }
 
-.comments-second {
-  margin-top: 60px;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  gap: 5%;
-}
-.comment .about-comment-user .about-name {
-  display: inline-block;
-  margin-left: 12px;
-}
-.about-comment-user .about-name h2 {
- font-size: 16px;
-}
+  .comments-second {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 5%;
+  }
+  .comment .about-comment-user .about-name {
+    display: inline-block;
+    margin-left: 12px;
+  }
+  .about-comment-user .about-name h2 {
+    font-size: 16px;
+  }
 
-.about-comment-user .about-name p {
-  font-size: 14px;
-}
+  .about-comment-user .about-name p {
+    font-size: 14px;
+  }
 
-.com{
-  font-size: 14px;
-}
-.commit .about-comment-user .comimg img {
-  width: 52px;
-  height: 52px;
-}
-/* FEEDBACK RESPONSIVE STYLE END  */
-
+  .com {
+    font-size: 14px;
+  }
+  .commit .about-comment-user .comimg img {
+    width: 52px;
+    height: 52px;
+  }
+  /* FEEDBACK RESPONSIVE STYLE END  */
 
   /* FOOTER RESPONSIVE SECTION START  */
 
@@ -792,7 +860,7 @@ nav {
   color: #193c3f;
 }
 
-.info_text {
+#for_whom .info_text {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -800,6 +868,7 @@ nav {
   color: #34423a;
   text-align: center;
   margin: 0 1.8rem 1.8rem 1.8rem;
+  width: 84%;
 }
 
 .for_whom_btn {
@@ -934,363 +1003,354 @@ nav {
     margin-top: 25px;
   }
 
-
-@media (min-width: 876px) and (max-width: 1024px) {
-  .for_whom_box {
-    width: 13rem;
-    height: 9rem;
-  }
-
-  .mini_sections {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .box_ellipse img {
-    width: 1.6rem;
-    height: 1.6rem;
-  }
-
-  .box_ellipse {
-    margin-top: 0.6rem;
-    width: 2.7rem;
-    height: 2.7rem;
-    border-radius: 50%;
-  }
-
-  .for_whom_text {
-    font-size: 0.7rem;
-  }
-
-  .info_text {
-    font-size: 0.5rem;
-    margin: 0 0.6rem 0.6rem 0.6rem;
-  }
-
-  .kurs_kimlar_uchun {
-    width: 48rem;
-    padding: 0px 2.5rem;
-    height: 28rem;
-  }
-  .for_whom_heading p {
-    font-size: 1.7rem;
-  }
-
-  .for_whom_btn .btn {
-    width: 12rem;
-    height: 2.2rem;
-    padding: 0.5rem 1.2rem;
-    font-size: 13px;
-  }
-
-  .join_us {
-    font-size: 10px;
-  }
-
-  .for_whom_btn {
-    margin-top: 25px;
-  }
-}
-
-/* For_whom tugadi */
-      @media (min-width: 876px) and (max-width: 1024px) {
-        .for_whom_box {
-          width: 13rem;
-          height: 9rem;
-        }
-        
-        .mini_sections{
-          display: flex;
-          justify-content: space-around;
-        }
-  
-        .box_ellipse img {
-          width: 1.6rem;
-          height: 1.6rem;
-        }
-      
-        .box_ellipse {
-          margin-top: 0.6rem;
-          width: 2.7rem;
-          height: 2.7rem;
-          border-radius: 50%;
-          }
-      
-          .for_whom_text {
-            font-size: 0.7rem;
-            }
-            
-            .info_text {
-            font-size: 0.5rem;
-            margin: 0 0.6rem 0.6rem 0.6rem;
-            }
-      
-            .kurs_kimlar_uchun{
-              width: 48rem;
-              padding: 0px 2.5rem;
-              height: 28rem;
-            }
-            .for_whom_heading p {
-              font-size: 1.7rem;
-            }
-      
-            .for_whom_btn .btn {
-              width: 12rem;
-              height: 2.2rem;
-              padding: 0.5rem 1.2rem ;
-              font-size: 13px;
-            }
-  
-            .join_us {
-              font-size: 10px;;
-          }
-  
-          .for_whom_btn  {
-            margin-top: 25px;
-          }
-  
-        }
-
-        @media (min-width:769px) and (max-width:875px) {
-          .for_whom_box {
-            width: 10rem;
-            height: 7rem;
-          }
-          
-          .mini_sections{
-            display: flex;
-            justify-content: space-around;
-          }
-    
-          .box_ellipse img {
-            width: 1.3rem;
-            height: 1.3rem;
-          }
-        
-          .box_ellipse {
-            margin-top: 0.4rem;
-            width: 2.3rem;
-            height: 2.3rem;
-            border-radius: 50%;
-            }
-        
-            .for_whom_text {
-              font-size: 0.5rem;
-              }
-              
-              .info_text {
-              font-size: 0.4rem;
-              margin: 0 0.4rem 0.4rem 0.4rem;
-              }
-        
-              .kurs_kimlar_uchun{
-                width: 40rem;
-                padding: 0px 2.1rem;
-                height: 23rem;
-              }
-              .for_whom_heading p {
-                font-size: 1.5rem;
-              }
-        
-              .for_whom_btn .btn {
-                width: 9rem;
-                height: 2rem;
-                padding: 0.3rem 1rem;
-                font-size: 10px;
-              }
-    
-              .join_us {
-                font-size: 8px;;
-            }
-    
-            .for_whom_btn  {
-              margin-top: 22px;
-            }
-        }
-
-        @media (min-width:480px) and (max-width:768px) {
-          .for_whom{
-            width: 768px;
-          }
-          .mini_sections {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-flow: column  wrap;
-          }
-
-          .kurs_kimlar_uchun{
-            height: 80rem;
-            padding: 0 6.5rem;
-          }
-
-          .for_whom_btn {
-            display: flex;
-            flex-flow: column wrap;
-          }
-
-          .for_whom_btn .btn {
-            margin: 0 2rem;
-            width: 20rem;
-          }
-
-          .join_us {
-            margin: 1rem -1.5rem ;
-          }
-
-          .for_whom_box {
-            margin-top: 25px;
-            /* height: 17rem; */
-            }
-
-            .for_whom_heading p {
-              font-family: Staatliches;
-              font-size: 3.3rem;
-              font-weight: 400;
-              color: #193C3F;
-            }
-          }
-        
-          @media (min-width:320px) and (max-width:479px) {
-            
-            
-            .mini_sections {
-              display: flex;
-              justify-content: center;
-              align-items: flex-start;
-              flex-flow: column  wrap;
-            }
-  
-            .kurs_kimlar_uchun{
-              height: 80rem;
-              padding: 0 0rem;
-              margin: 0 1.8rem;
-            }
-  
-            .for_whom_btn {
-              display: flex;
-              flex-flow: column wrap;
-              margin: 1rem 1.4rem;
-            }
-  
-            .for_whom_btn .btn {
-              margin: 0 0rem;
-              width: 20rem;
-            }
-  
-            .join_us {
-              margin: 1rem -0.8rem ;
-              font-size: 0.7rem;
-            }
-  
-            .for_whom_box {
-              margin-top: 25px ;
-              width: 19rem;
-              height: 12rem;
-              }
-  
-              .for_whom_heading p {
-                font-size: 2.5rem;
-              }
-              
-
-              .box_ellipse img {
-                width: 2rem;
-                height: 2rem;
-              }
-            
-              .box_ellipse {
-                margin-top: 1.2rem;
-                width: 3.5rem;
-                height: 3.5rem;
-                }
-            
-                .for_whom_text {
-                  font-size: 1.1rem;
-                  }
-                  
-                  .info_text {
-                  font-size: 0.5rem;
-                  margin: 0 1.2rem 1.2rem 1.2rem;
-                  } 
-            }
-
-    
-    
-    
-    
-    /* For_whom tugadi */
-    /* extra__chance boshlandi */
-    .extra__chance{
-      display: flex;
-      margin:5rem 7.5rem
+  @media (min-width: 876px) and (max-width: 1024px) {
+    .for_whom_box {
+      width: 13rem;
+      height: 9rem;
     }
-    .chence__text> h2,.apply__me> h2{
+
+    .mini_sections {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .box_ellipse img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    .box_ellipse {
+      margin-top: 0.6rem;
+      width: 2.7rem;
+      height: 2.7rem;
+      border-radius: 50%;
+    }
+
+    .for_whom_text {
+      font-size: 0.7rem;
+    }
+
+    .info_text {
+      font-size: 0.5rem;
+      margin: 0 0.6rem 0.6rem 0.6rem;
+    }
+
+    .kurs_kimlar_uchun {
+      width: 48rem;
+      padding: 0px 2.5rem;
+      height: 28rem;
+    }
+    .for_whom_heading p {
+      font-size: 1.7rem;
+    }
+
+    .for_whom_btn .btn {
+      width: 12rem;
+      height: 2.2rem;
+      padding: 0.5rem 1.2rem;
+      font-size: 13px;
+    }
+
+    .join_us {
+      font-size: 10px;
+    }
+
+    .for_whom_btn {
+      margin-top: 25px;
+    }
+  }
+
+  /* For_whom tugadi */
+  @media (min-width: 876px) and (max-width: 1024px) {
+    .for_whom_box {
+      width: 13rem;
+      height: 9rem;
+    }
+
+    .mini_sections {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .box_ellipse img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    .box_ellipse {
+      margin-top: 0.6rem;
+      width: 2.7rem;
+      height: 2.7rem;
+      border-radius: 50%;
+    }
+
+    .for_whom_text {
+      font-size: 0.7rem;
+    }
+
+    .info_text {
+      font-size: 0.5rem;
+      margin: 0 0.6rem 0.6rem 0.6rem;
+    }
+
+    .kurs_kimlar_uchun {
+      width: 48rem;
+      padding: 0px 2.5rem;
+      height: 28rem;
+    }
+    .for_whom_heading p {
+      font-size: 1.7rem;
+    }
+
+    .for_whom_btn .btn {
+      width: 12rem;
+      height: 2.2rem;
+      padding: 0.5rem 1.2rem;
+      font-size: 13px;
+    }
+
+    .join_us {
+      font-size: 10px;
+    }
+
+    .for_whom_btn {
+      margin-top: 25px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 875px) {
+    .for_whom_box {
+      width: 10rem;
+      height: 7rem;
+    }
+
+    .mini_sections {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .box_ellipse img {
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+
+    .box_ellipse {
+      margin-top: 0.4rem;
+      width: 2.3rem;
+      height: 2.3rem;
+      border-radius: 50%;
+    }
+
+    .for_whom_text {
+      font-size: 0.5rem;
+    }
+
+    .info_text {
+      font-size: 0.4rem;
+      margin: 0 0.4rem 0.4rem 0.4rem;
+    }
+
+    .kurs_kimlar_uchun {
+      width: 40rem;
+      padding: 0px 2.1rem;
+      height: 23rem;
+    }
+    .for_whom_heading p {
+      font-size: 1.5rem;
+    }
+
+    .for_whom_btn .btn {
+      width: 9rem;
+      height: 2rem;
+      padding: 0.3rem 1rem;
+      font-size: 10px;
+    }
+
+    .join_us {
+      font-size: 8px;
+    }
+
+    .for_whom_btn {
+      margin-top: 22px;
+    }
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    .for_whom {
+      width: 768px;
+    }
+    .mini_sections {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow: column wrap;
+    }
+
+    .kurs_kimlar_uchun {
+      height: 80rem;
+      padding: 0 6.5rem;
+    }
+
+    .for_whom_btn {
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .for_whom_btn .btn {
+      margin: 0 2rem;
+      width: 20rem;
+    }
+
+    .join_us {
+      margin: 1rem -1.5rem;
+    }
+
+    .for_whom_box {
+      margin-top: 25px;
+      /* height: 17rem; */
+    }
+
+    .for_whom_heading p {
+      font-family: Staatliches;
+      font-size: 3.3rem;
+      font-weight: 400;
+      color: #193c3f;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 479px) {
+    .mini_sections {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow: column wrap;
+    }
+
+    .kurs_kimlar_uchun {
+      height: 80rem;
+      padding: 0 0rem;
+      margin: 0 1.8rem;
+    }
+
+    .for_whom_btn {
+      display: flex;
+      flex-flow: column wrap;
+      margin: 1rem 1.4rem;
+    }
+
+    .for_whom_btn .btn {
+      margin: 0 0rem;
+      width: 20rem;
+    }
+
+    .join_us {
+      margin: 1rem -0.8rem;
+      font-size: 0.7rem;
+    }
+
+    .for_whom_box {
+      margin-top: 25px;
+      width: 19rem;
+      height: 12rem;
+    }
+
+    .for_whom_heading p {
+      font-size: 2.5rem;
+    }
+
+    .box_ellipse img {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .box_ellipse {
+      margin-top: 1.2rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .for_whom_text {
+      font-size: 1.1rem;
+    }
+
+    .info_text {
+      font-size: 0.5rem;
+      margin: 0 1.2rem 1.2rem 1.2rem;
+    }
+  }
+
+  /* For_whom tugadi */
+  /* extra__chance boshlandi */
+  .extra__chance {
+    display: flex;
+    margin: 5rem 7.5rem;
+  }
+  .chence__text > h2,
+  .apply__me > h2 {
     font-family: Staatliches;
     font-size: 3.75rem;
     font-weight: 400;
     width: 39.5rem;
     line-height: 125%;
-    }
-    .chence__text{
-      width: 32rem;
-      padding-left: 3.5rem;
-    }
-    .chence__text> p{
+  }
+  .chence__text {
+    width: 32rem;
+    padding-left: 3.5rem;
+  }
+  .chence__text > p {
     width: 37.5rem;
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    }
-    .apply__me{
-      margin:5rem 7.5rem
-    }   
-    .varnning{
-      display: flex;
-    }
-    .varnning> p{
-      margin-left: 0.75rem;
-    font-family: 'Gilroy';
+  }
+  .apply__me {
+    margin: 5rem 7.5rem;
+  }
+  .varnning {
+    display: flex;
+  }
+  .varnning > p {
+    margin-left: 0.75rem;
+    font-family: "Gilroy";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
-    }
-    .apply__me> p{
-      width: 38.6rem;
-    font-family: 'Gilroy';
+  }
+  .apply__me > p {
+    width: 38.6rem;
+    font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    }
-    .form__info{
-      box-sizing: border-box;
-      height: 3rem;
-      width: 536px;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-    .form__info> input{
-      width: 498px;
-      align-items: center;
-      padding: 13px 18px;
-      height: 48px;
-      background: #EFF5F2;
-      border: 1px solid #B1CBBB;
-      border-radius: 12px;
-
-    }
-    .apply__right{
-      position: relative;
-      left: 771px;
-      top: -343px;
-    }
-    .apply__right> img:nth-child(2){
-      position: relative;
-      top: 7.5rem;
-    }
-    /* extra__chance tugadi */
   }
+  .form__info {
+    box-sizing: border-box;
+    height: 3rem;
+    width: 536px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .form__info > input {
+    width: 498px;
+    align-items: center;
+    padding: 13px 18px;
+    height: 48px;
+    background: #eff5f2;
+    border: 1px solid #b1cbbb;
+    border-radius: 12px;
+  }
+  .apply__right {
+    position: relative;
+    left: 771px;
+    top: -343px;
+  }
+  .apply__right > img:nth-child(2) {
+    position: relative;
+    top: 7.5rem;
+  }
+  /* extra__chance tugadi */
+}

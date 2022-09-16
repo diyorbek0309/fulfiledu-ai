@@ -1184,9 +1184,193 @@ nav {
       height: 9rem;
     }
 
+<<<<<<< HEAD
+        @media (min-width:769px) and (max-width:875px) {
+          .for_whom_box {
+            width: 10rem;
+            height: 7rem;
+          }
+          
+          .mini_sections{
+            display: flex;
+            justify-content: space-around;
+          }
+    
+          .box_ellipse img {
+            width: 1.3rem;
+            height: 1.3rem;
+          }
+        
+          .box_ellipse {
+            margin-top: 0.4rem;
+            width: 2.3rem;
+            height: 2.3rem;
+            border-radius: 50%;
+            }
+        
+            .for_whom_text {
+              font-size: 0.5rem;
+              }
+              
+              .info_text {
+              font-size: 0.4rem;
+              margin: 0 0.4rem 0.4rem 0.4rem;
+              }
+        
+              .kurs_kimlar_uchun{
+                width: 40rem;
+                padding: 0px 2.1rem;
+                height: 23rem;
+              }
+              .for_whom_heading p {
+                font-size: 1.5rem;
+              }
+        
+              .for_whom_btn .btn {
+                width: 9rem;
+                height: 2rem;
+                padding: 0.3rem 1rem;
+                font-size: 10px;
+              }
+    
+              .join_us {
+                font-size: 8px;;
+            }
+    
+            .for_whom_btn  {
+              margin-top: 22px;
+            }
+        }
+
+        @media (min-width:480px) and (max-width:768px) {
+          .for_whom{
+            width: 768px;
+          }
+          .mini_sections {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-flow: column  wrap;
+          }
+
+          .kurs_kimlar_uchun{
+            height: 80rem;
+            padding: 0 6.5rem;
+          }
+
+          .for_whom_btn {
+            display: flex;
+            flex-flow: column wrap;
+          }
+
+          .for_whom_btn .btn {
+            margin: 0 2rem;
+            width: 20rem;
+          }
+
+          .join_us {
+            margin: 1rem -1.5rem ;
+          }
+
+          .for_whom_box {
+            margin-top: 25px;
+            /* height: 17rem; */
+            }
+
+            .for_whom_heading p {
+              font-family: Staatliches;
+              font-size: 3.3rem;
+              font-weight: 400;
+              color: #193C3F;
+            }
+          }
+        
+          @media (min-width:320px) and (max-width:479px) {
+            
+            
+            .mini_sections {
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              flex-flow: column  wrap;
+            }
+  
+            .kurs_kimlar_uchun{
+              height: 80rem;
+              padding: 0 0rem;
+              margin: 0 1.8rem;
+            }
+  
+            .for_whom_btn {
+              display: flex;
+              flex-flow: column wrap;
+              margin: 1rem 1.4rem;
+            }
+  
+            .for_whom_btn .btn {
+              margin: 0 0rem;
+              width: 20rem;
+            }
+  
+            .join_us {
+              margin: 1rem -0.8rem ;
+              font-size: 0.7rem;
+            }
+  
+            .for_whom_box {
+              margin-top: 25px ;
+              width: 19rem;
+              height: 12rem;
+              }
+  
+              .for_whom_heading p {
+                font-size: 2.5rem;
+              }
+              
+
+              .box_ellipse img {
+                width: 2rem;
+                height: 2rem;
+              }
+            
+              .box_ellipse {
+                margin-top: 1.2rem;
+                width: 3.5rem;
+                height: 3.5rem;
+                }
+            
+                .for_whom_text {
+                  font-size: 1.1rem;
+                  }
+                  
+                  .info_text {
+                  font-size: 0.5rem;
+                  margin: 0 1.2rem 1.2rem 1.2rem;
+                  } 
+            }
+
+    
+    
+    
+    
+    /* For_whom tugadi */
+    /* extra__chance boshlandi */
+
+    .extra__chance_container {
+      margin-top: 100px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    .extra__chance{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+=======
     .mini_sections {
       display: flex;
       justify-content: space-around;
+>>>>>>> 5bca0c535cf9bb07d93117a2320750eb7df1ca3a
     }
 
     .box_ellipse img {
@@ -1407,6 +1591,122 @@ nav {
     font-family: Staatliches;
     font-size: 3.75rem;
     font-weight: 400;
+<<<<<<< HEAD
+    }
+
+    .extra-chance-img {
+      margin-right: 50px;
+      margin-left: 5 0px;
+    }
+
+    .chence__text> p{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+    }
+    .apply__me{
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-top: 100px;
+    }   
+    .varnning{
+      display: flex;
+    }
+    .varnning> p{
+      margin-left: 0.75rem;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    }
+    .apply__me> p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    }
+    .form__info{
+      box-sizing: border-box;
+      height: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .form__info> input{
+      align-items: center;
+      padding: 13px 18px;
+      height: 48px;
+      background: #EFF5F2;
+      border: 1px solid #B1CBBB;
+      border-radius: 12px;
+
+    }
+    .apply__right{
+      position: relative;
+      margin-top: -60px;
+    }
+    .apply__right> img:nth-child(2){
+      position: relative;
+      top: 7.5rem;
+    }
+
+    .apply-flex-div {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    #bottom-top-icon {
+      position: absolute;
+      top: 100%;
+      transform: scale(0.9);
+    }
+
+    @media(max-width: 1400px){
+      .extra-chance-img {
+        width: 500px;
+        margin-right: 50px;
+      }
+    }
+
+    @media(max-width: 1290px){
+      .chence__text {
+        width: 400px;
+        padding-right: 50px;
+      }
+    }
+
+    @media(max-width: 1400px){
+      .extra-chance-img {
+        width: 300px;
+      }
+      .chence__text {
+        width: 500px;
+      }
+    }
+
+    @media(max-width: 1000px){
+      .extra__chance {
+        flex-wrap: wrap;
+        margin-top: 0;
+      }
+      .extra-chance-img {
+        margin: auto;
+      }
+      .chence__text {
+        margin: auto;
+      }
+    }
+
+    @media(max-width: 700px){
+      .apply__right {
+        display: none;
+      }
+    }
+
+
+    /* extra__chance tugadi */
+=======
     width: 39.5rem;
     line-height: 125%;
   }
@@ -1471,3 +1771,4 @@ nav {
   }
   /* extra__chance tugadi */
 }
+>>>>>>> 5bca0c535cf9bb07d93117a2320750eb7df1ca3a

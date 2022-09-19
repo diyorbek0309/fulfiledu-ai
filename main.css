@@ -1071,7 +1071,7 @@ nav {
     width: 11rem;
     height: 7rem;
   }
-
+}
   .mini_sections {
     display: flex;
     justify-content: space-around;
@@ -1574,186 +1574,290 @@ nav {
 
   /* For_whom tugadi */
   /* extra__chance boshlandi */
-  .extra__chance {
-    display: flex;
-    margin: 5rem 7.5rem;
-  }
-  .chence__text > h2,
-  .apply__me > h2 {
-    font-family: Staatliches;
-    font-size: 3.75rem;
-    font-weight: 400;
-  }
-
-  .extra-chance-img {
-    margin-right: 50px;
-    margin-left: 5 0px;
-  }
-
-  .chence__text > p {
-    font-family: "Gilroy";
-    font-weight: 400;
-    font-size: 20px;
-  }
-  .apply__me {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 100px;
-  }
-  .varnning {
-    display: flex;
-  }
-  .varnning > p {
-    margin-left: 0.75rem;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-  }
-  .apply__me > p {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  .form__info {
-    box-sizing: border-box;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .form__info > input {
-    align-items: center;
-    padding: 13px 18px;
-    height: 48px;
-    background: #eff5f2;
-    border: 1px solid #b1cbbb;
-    border-radius: 12px;
-  }
-  .apply__right {
-    position: relative;
-    margin-top: -60px;
-  }
-  .apply__right > img:nth-child(2) {
-    position: relative;
-    top: 7.5rem;
-  }
-
-  .apply-flex-div {
+  .extra_chance_container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
-  #bottom-top-icon {
-    position: absolute;
-    top: 100%;
-    transform: scale(0.9);
+
+  .extra_chance_right {
+    width: 53%;
   }
 
-  @media (max-width: 1400px) {
-    .extra-chance-img {
-      width: 500px;
-      margin-right: 50px;
-    }
+  .extra_chance_right_title {
+    width: 394px;
+    height: 75px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 125%;
   }
 
-  @media (max-width: 1290px) {
-    .chence__text {
-      width: 400px;
-      padding-right: 50px;
-    }
+  .extra_chance_right_title-right {
+    color: #19A852;
   }
 
-  @media (max-width: 1400px) {
-    .extra-chance-img {
-      width: 300px;
-    }
-    .chence__text {
-      width: 500px;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    .extra__chance {
-      flex-wrap: wrap;
-      margin-top: 0;
-    }
-    .extra-chance-img {
-      margin: auto;
-    }
-    .chence__text {
-      margin: auto;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .apply__right {
-      display: none;
-    }
-  }
-
-  /* extra__chance tugadi */
-
-  .chence__text {
-    width: 32rem;
-    padding-left: 3.5rem;
-  }
-  .chence__text > p {
-    width: 37.5rem;
-    font-family: "Gilroy";
+  .extra_chance_right_text {
+    width: 595px;
+    height: 196px;
+    font-family: 'Gilroy';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
+    color: #193C3F;
   }
-  .apply__me {
-    margin: 5rem 7.5rem;
+  
+  .extra_chance_right_text2 {
+    color: #193C3F;
+    width: 589px;
+    height: 68px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
   }
-  .varnning {
+
+  .extra_chance_right_text21 {
+    color: #19A852;
+  }
+
+  .extra_chance_right_button {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 13px 98px;
+    gap: 10px;
+    width: 320px;
+    height: 50px;
+    background: #19A852;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
-  .varnning > p {
-    margin-left: 0.75rem;
-    font-family: "Gilroy";
+
+  .extra_chance_right_button_text {
+    width: 124px;
+    height: 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  @media(max-width:1250px) {
+    .extra_chance_container {
+      margin-top: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    .extra_chance_left{
+      width: 500px;
+    }
+
+    .extra_chance_right {
+      width: 45%;
+    }
+  }
+
+  @media(max-width:1130px) {
+    .extra_chance_container {
+      margin-top: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align-items: center;
+    }
+
+    .extra_chance_left{
+      width: 400px;
+    }
+
+    .extra_chance_right {
+      width: 40%;
+    }
+  }
+
+  @media(max-width:1000px) {
+    .extra_chance_left {
+      margin-top: 30px;
+      margin-right: 20px;
+      width: 450px;
+    }
+
+  }
+
+  @media(max-width:770px){
+    .extra_chance_container {
+      margin-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-wrap: wrap;
+    }
+
+    .extra_chance_left{
+      width: 400px;
+      margin: auto;
+    }
+
+    .extra_chance_right {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  /* apply boshlandi tugadi */
+
+  .apply-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+  }
+
+  .apply-section-left-title {
+    width: 632px;
+    height: 150px;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 125%;
+    color: #193C3F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .apply-section-left-title-green {
+    color: #19A852;
+  }
+
+  .apply-section-left-text {
+    width: 619px;
+    height: 56px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .apply-section-varning-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .apply-section-varning-container img {
+    margin-right: 10px;
+  }
+
+  .apply-section-varning-container b {
+    width: 289px;
+    height: 28px;
+    font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
+    color: #000000;
   }
-  .apply__me > p {
-    width: 38.6rem;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-  }
-  .form__info {
+
+  .apply-section-form input {
     box-sizing: border-box;
-    height: 3rem;
-    width: 536px;
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .form__info > input {
-    width: 498px;
+    flex-direction: row;
     align-items: center;
     padding: 13px 18px;
+    gap: 10px;
+    width: 498px;
     height: 48px;
-    background: #eff5f2;
-    border: 1px solid #b1cbbb;
+    background: #EFF5F2;
+    border: 1px solid #B1CBBB;
     border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 20px;
   }
-  .apply__right {
-    position: relative;
-    left: 771px;
-    top: -343px;
+
+  .apply-section-form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 13px 98px;
+    gap: 10px;
+    width: 498px;
+    height: 48px;
+    background: #19A852;
+    border-radius: 12px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
   }
-  .apply__right > img:nth-child(2) {
-    position: relative;
-    top: 7.5rem;
+
+  .apply-section-form button span {
+    width: 302px;
+    height: 22px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
   }
-  /* extra__chance tugadi */
-}
+
+  .apply-section-right {
+    width: 543px;
+  }
+
+  .down-arrow {
+    position: absolute;
+    margin-top: 400px;
+  }
+
+  @media(max-width: 700px){
+    .apply-section-container {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .apply-section-right {
+      order: -1;
+    }
+
+    .down-arrow {
+      position: absolute;
+      margin-top: 880px;
+    }
+
+  }
+
+  /* apply section tugadi */

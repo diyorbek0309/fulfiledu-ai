@@ -707,7 +707,7 @@ color: #193C3F;
   display: grid;
   grid-template-columns: 25% 24% 24% 24%;
   grid-template-rows:auto;
-  gap: 1%;
+  gap: 2%;
   margin-top: 30px;
 }
 
@@ -1105,9 +1105,9 @@ color: #193C3F;
 }
 .why-ai-second{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 48% 43%;
   grid-template-rows:auto;
-  gap: 1%;
+  gap: 4%;
   margin-top: 30px;
 }
 

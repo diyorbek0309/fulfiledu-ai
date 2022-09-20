@@ -401,6 +401,7 @@ nav {
 .about_course_wrap {
   display: flex;
   justify-content: space-between;
+  gap: 2%;
 }
 
 #about_course {
@@ -433,6 +434,7 @@ nav {
   border: 1px dashed #abd8c4;
   border-radius: 0.75rem;
   margin-bottom: 1.25rem;
+  margin-right: 20px;
 }
 
 .about_course_item_title {
@@ -471,7 +473,7 @@ nav {
   display: grid;
   grid-template-columns: 48% 48%;
   grid-template-rows: auto;
-  gap: 4%;
+  gap: 8%;
 }
 
 .project-info-first h1 {

@@ -180,9 +180,8 @@ nav {
 
 .hero-contents {
   display: grid;
-  grid-template-columns: 42% auto;
+  grid-template-columns: 44% 55%;
   grid-template-rows: auto;
-  column-gap: 1.5rem;
 }
 
 .hero-first-content {
@@ -250,33 +249,32 @@ nav {
 }
 
 .hero-second-content {
-  padding-left: 12px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-second-content .image-right img {
-  position: absolute;
-  top: 110px;
-  left: 0;
-  width: 720px;
+  width: 665px;
+  margin-top: 10px;
 }
 
 .hero-second-content .image-right .ellepse {
-  width: 680px;
-  height: 680px;
+  width: 630px;
+  height: 630px;
   background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
   border-radius: 50%;
 }
 
 .hero-second-content .image-right .ellepse-under {
-  width: 710px;
-  height: 710px;
+  width: 670px;
+  height: 670px;
   border: 1px dashed #3cb27f;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .lessons {
@@ -1580,3 +1578,29 @@ nav {
 }
 
 /* apply section tugadi */
+
+@media (min-width:1367px) {
+  
+.hero-second-content .image-right img {
+  width: 720px;
+  margin-top: 10px;
+}
+
+.hero-second-content .image-right .ellepse {
+  width: 680px;
+  height: 680px;
+  background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
+  border-radius: 50%;
+}
+
+.hero-second-content .image-right .ellepse-under {
+  width: 710px;
+  height: 710px;
+  border: 1px dashed #3cb27f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+}

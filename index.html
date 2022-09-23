@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./main.css" />
 </head>
 
-<body>
+<body id="scrollBlock">
   <!-- Navbar boshlandi -->
   <nav>
     <div class="container">
@@ -39,7 +39,7 @@
             <h1>+998976282882</h1>
           </div>
         </div>
-        <div class="navbtn"><button class="btnbg">Qayta aloqa</button></div>
+        <div class="navbtn"><button class="btnbg" onclick="modalOpen(event)">Qayta aloqa</button></div>
       </div>
     </div>
   </nav>
@@ -199,7 +199,7 @@
                   <img src="./assets/images/for_whom_icon3.svg" alt="icon3" />
                 </div>
               </div>
-              <h2>Va albatta</h2>
+              <h2 class="for_whom_text">Va albatta</h2>
               <p>
                 Kompyuter va interneti borlar uchun
                 <br />
@@ -651,7 +651,7 @@
         <form class="apply-section-form">
           <input type="text" name="firstname" placeholder="Ism" required>
           <input type="text" name="lastname" placeholder="Familya" required>
-          <button id="btn-modal" class="btn">Bir haftalik bepul darsga qatnashish</button>
+          <button id="btn-modal" class="btn" onclick="modalOpen(event)">Bir haftalik bepul darsga qatnashish</button>
         </form>
       </div>
       <div class="apply-section-right">
@@ -733,22 +733,33 @@
         behavior: 'smooth'
       });
     }
-    document.getElementById('btn-modal').addEventListener('click', function (event) {
+     function modalOpen(event){
       event.preventDefault()
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
       document.getElementById('overlay').classList.add('is-visible');
       document.getElementById('modal').classList.add('is-visible');
-    });
+      document.getElementById('scrollBlock').classList.add('scrollNone');
+    };
+
+    // document.getElementById('btn-modal').addEventListener('click', function (event) {
+    //   event.preventDefault()
+    //   document.body.scrollTop = 0;
+    //   document.documentElement.scrollTop = 0;
+    //   document.getElementById('overlay').classList.add('is-visible');
+    //   document.getElementById('modal').classList.add('is-visible');
+    // });
 
     document.getElementById('close-btn').addEventListener('click', function () {
       document.getElementById('overlay').classList.remove('is-visible');
       document.getElementById('modal').classList.remove('is-visible');
+      document.getElementById('scrollBlock').classList.remove('scrollNone');
     });
     document.getElementById('overlay').addEventListener('click', function () {
       document.getElementById('overlay').classList.remove('is-visible');
       document.getElementById('modal').classList.remove('is-visible');
       document.getElementById("all-confirm").classList.remove('is-visible');
+      document.getElementById('scrollBlock').classList.remove('scrollNone');
     });
 
     function submitSection(){
@@ -769,6 +780,7 @@
       event.preventDefault()
       document.getElementById("all-confirm").classList.remove('is-visible');
       document.getElementById('overlay').classList.remove('is-visible');
+      document.getElementById('scrollBlock').classList.remove('scrollNone');
     })
   </script>
 </body>

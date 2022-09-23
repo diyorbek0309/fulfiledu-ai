@@ -443,7 +443,7 @@ nav {
   height: 70px;
 }
 
-.box_ellipse h2 {
+.for_whom_text {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
@@ -452,7 +452,7 @@ nav {
   color: #193c3f;
 }
 
-.box_ellipse p {
+.for_whom_box p {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -904,7 +904,9 @@ nav {
 /* FOOTER SECTION END  */
 
 /** Modal SECTION START */
-
+.scrollNone{
+  overflow: hidden;
+}
 .modal {
   pointer-events: none;
   opacity: 0;
@@ -1225,11 +1227,11 @@ nav {
     height: 50px;
   }
 
-  .box_ellipse h2 {
+  .for_whom_box h2 {
     font-size: 18px;
   }
 
-  .box_ellipse p {
+  .for_whom_box p {
     font-size: 14px;
   }
 

@@ -904,7 +904,7 @@ nav {
 /* FOOTER SECTION END  */
 
 /** Modal SECTION START */
-.scrollNone{
+.scrollNone {
   overflow: hidden;
 }
 .modal {
@@ -929,11 +929,11 @@ nav {
   bottom: 103%;
   font-size: 15px;
   padding: 5px 8px;
-  transition:0.5s ease;
-  cursor:pointer;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
-.modal-close-btn:hover{
+.modal-close-btn:hover {
   background-color: #cde4d6;
 }
 
@@ -1414,15 +1414,13 @@ nav {
     font-size: 14px;
   }
   /* FOOTER RESPONSIVE SECTION END  */
-/* MODAL SECTION RESPONSIVE START  */
-  
-.apply-section-left-title {
-  font-size: 32px;
-}
+  /* MODAL SECTION RESPONSIVE START  */
 
-/* MODAL SECTION RESPONSIVE START  */
+  .apply-section-left-title {
+    font-size: 32px;
+  }
 
-
+  /* MODAL SECTION RESPONSIVE START  */
 }
 
 /* Responsive  end*/
@@ -1677,8 +1675,13 @@ nav {
 }
 
 .down-arrow {
-  position: absolute;
-  margin-top: 400px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+#up_btn {
+  display: none;
 }
 
 @media (max-width: 700px) {

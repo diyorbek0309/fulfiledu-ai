@@ -903,6 +903,124 @@ nav {
 
 /* FOOTER SECTION END  */
 
+/** Modal SECTION START */
+
+.modal {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  max-width: 492px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+.modal-close-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 105%;
+  font-size: 20px;
+}
+
+/** Overlay */
+.overlay {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 56, 24, 0.5);
+  backdrop-filter: blur(9px);
+}
+
+.img-confirm{
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px dashed #3CB27F;
+  display: inline-block;
+}
+
+.img-confirm .img-ellips-comfirm{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #D7F0E1 0%, #CDE4D6 100%);
+}
+
+.img-confirm .img-ellips-comfirm img{
+  width: 140px;
+  height: 120px;
+  margin: 10px 10px 24px 20px;
+}
+#all-confirm h1{
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 125%;
+  text-align: center;
+  color: #193C3F;
+}
+
+#all-confirm p{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  color: #193C3F;
+}
+.btn-confermed{
+width: 392px;
+height: 48px;
+background: #193C3F;
+border-radius: 12px;
+color: #fff;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+transition: 0.5s ease;
+border: none;
+cursor: pointer;
+}
+.btn-confermed:hover{
+background: #255053;
+}
+/** JS */
+.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  display: block;
+}
+.modal-close-btn{
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.055);
+}
+
+/** Modal SECTION END */
+
+
 /* Responsive  start*/
 
 @media (max-width: 768px) {

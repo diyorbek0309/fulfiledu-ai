@@ -918,7 +918,7 @@ nav {
   padding: 30px;
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 .modal-close-btn {
@@ -944,66 +944,66 @@ nav {
   backdrop-filter: blur(9px);
 }
 
-.img-confirm{
+.img-confirm {
   width: 150px;
-  height:150px;
+  height: 150px;
   border-radius: 50%;
   padding: 10px;
-  border: 1px dashed #3CB27F;
+  border: 1px dashed #3cb27f;
   display: inline-block;
 }
 
-.img-confirm .img-ellips-comfirm{
+.img-confirm .img-ellips-comfirm {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, #D7F0E1 0%, #CDE4D6 100%);
+  background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
 }
 
-.img-confirm .img-ellips-comfirm img{
+.img-confirm .img-ellips-comfirm img {
   width: 140px;
   height: 120px;
   margin: 10px 10px 24px 20px;
 }
-#all-confirm h1{
-  font-family: 'Staatliches';
+#all-confirm h1 {
+  font-family: "Staatliches";
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
   line-height: 125%;
   text-align: center;
-  color: #193C3F;
+  color: #193c3f;
 }
 
-#all-confirm p{
-  font-family: 'Gilroy';
+#all-confirm p {
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 125%;
   text-align: center;
-  color: #193C3F;
+  color: #193c3f;
 }
-.btn-confermed{
-width: 392px;
-height: 48px;
-background: #193C3F;
-border-radius: 12px;
-color: #fff;
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-transition: 0.5s ease;
-border: none;
-cursor: pointer;
+.btn-confermed {
+  width: 392px;
+  height: 48px;
+  background: #193c3f;
+  border-radius: 12px;
+  color: #fff;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  transition: 0.5s ease;
+  border: none;
+  cursor: pointer;
 }
-.btn-confermed:hover{
-background: #255053;
+.btn-confermed:hover {
+  background: #255053;
 }
 /** JS */
 .is-visible {
@@ -1011,7 +1011,7 @@ background: #255053;
   pointer-events: auto;
   display: block;
 }
-.modal-close-btn{
+.modal-close-btn {
   background-color: #fff;
   border-radius: 50%;
   border: none;
@@ -1019,7 +1019,6 @@ background: #255053;
 }
 
 /** Modal SECTION END */
-
 
 /* Responsive  start*/
 
@@ -1697,28 +1696,27 @@ background: #255053;
 
 /* apply section tugadi */
 
-@media (min-width:1367px) {
-  
-.hero-second-content .image-right img {
-  width: 720px;
-  margin-top: 10px;
-}
+@media (min-width: 1367px) {
+  .hero-second-content .image-right img {
+    width: 720px;
+    margin-top: 10px;
+  }
 
-.hero-second-content .image-right .ellepse {
-  width: 680px;
-  height: 680px;
-  background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
-  border-radius: 50%;
-}
+  .hero-second-content .image-right .ellepse {
+    width: 680px;
+    height: 680px;
+    background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
+    border-radius: 50%;
+  }
 
-.hero-second-content .image-right .ellepse-under {
-  width: 710px;
-  height: 710px;
-  border: 1px dashed #3cb27f;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
+  .hero-second-content .image-right .ellepse-under {
+    width: 710px;
+    height: 710px;
+    border: 1px dashed #3cb27f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
 }

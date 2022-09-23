@@ -84,14 +84,14 @@
               Kursga hoziroq ro’yxatdan o’ting va <br />
               <span class="green"> chegirmaga </span>ega bo’ling!
             </p>
-            <button class="btn">Kursga yozilish</button>
+            <button class="btn" onclick="submitSection()">Kursga yozilish</button>
           </div>
           <div class="hero-second-content">
             <div class="image-right">
               <div class="ellepse-under">
                 <div class="ellepse"><img src="./assets/images/K3B1.png" alt="human" /></div>
               </div>
-              
+
             </div>
           </div>
 
@@ -152,7 +152,7 @@
                 <p>AHA INC Company</p>
               </div>
             </div>
-              <button class="btn">Kursga yozilish</button>
+            <button class="btn" onclick="submitSection()">Kursga yozilish</button>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@
             </div>
           </div>
           <div class="for_whom_btn">
-            <div class="butn"><button class="btn">Kursga yozilish</button></div>
+            <div class="butn"><button class="btn" onclick="submitSection()">Kursga yozilish</button></div>
             <p class="join_us">Kursga hoziroq ro’yxatdan o’ting va<span class="green">
                 chegirmaga </span>ega bo’ling!</p>
           </div>
@@ -351,7 +351,7 @@
             </div>
             <div class="list-finish">
               <p>Imkoyniyatni boy bermang, xoziroq kursga yoziling!</p>
-              <button class="btn">Kursga yozilish</button>
+              <button class="btn" onclick="submitSection()">Kursga yozilish</button>
             </div>
           </div>
         </div>
@@ -630,7 +630,7 @@
         </p>
         <p class="extra_chance_right_text2">Butun kurs uchun umumiy <span class="extra_chance_right_text21">2.000.000
             so'm to'lang</span> va barchasiga ega bo'ling! </p>
-        <button class="btn">Kursga yozilish
+        <button class="btn" onclick="submitSection()">Kursga yozilish
         </button>
       </div>
     </div>
@@ -675,94 +675,102 @@
   <!-- Modallar boshlandi -->
   <div id="apply_modal" class="test">
 
-  
+
     <div class="overlay" id="overlay"></div>
-  <div class="modal-conteiner">
-  <div class="modal" id="modal">
-    <button class="modal-close-btn" id="close-btn">X</button>
-    <div class="apply-section-container1">
-      <div class="apply-section-left1">
-        <h1 class="apply-section-left-title1">240 SOATLIK PROFESSIONAL <span class="apply-section-left-title-green">PYTHON</span> VA <span class="apply-section-left-title-green">SUN'IY INTELLEKT KURSIGA</span>
-          YOZILISH </h1>
-       
-        <form class="apply-section-form">
-          <input type="text" name="firstname" placeholder="Ism" required >
-          <input type="text" name="lastname" placeholder="Familya"  required>
-          <button class="btn" id="confirm">Kursga yozilish </button>
-        </form>
-      </div>
-     
-    </div>
-  </div>
-  <div id="confirm_modal">
-    <div id="all-confirm" class="modal">
-      <div class="img-confirm">
-        <div class="img-ellips-comfirm">
-          <img src="./assets/images/confirm.svg" alt="confirm">
+    <div class="modal-conteiner">
+      <div class="modal" id="modal">
+        <button class="modal-close-btn" id="close-btn">X</button>
+        <div class="apply-section-container1">
+          <div class="apply-section-left1">
+            <h1 class="apply-section-left-title1">240 SOATLIK PROFESSIONAL <span
+                class="apply-section-left-title-green">PYTHON</span> VA <span
+                class="apply-section-left-title-green">SUN'IY INTELLEKT KURSIGA</span>
+              YOZILISH </h1>
+
+            <form class="apply-section-form">
+              <input type="text" name="firstname" placeholder="Ism" required>
+              <input type="text" name="lastname" placeholder="Familya" required>
+              <button class="btn" id="confirm">Kursga yozilish </button>
+            </form>
+          </div>
+
         </div>
       </div>
-      <h1>So’rovingiz <br> <span class="green">muvaffaqiyatli yuborildi!</span> </h1>
-      <p>Operatorlar tez orada siz bilan aloqaga <br> chiqishadi, salomat bo’ling!</p>
-      <button id="confermed" class="btn-confermed">Tushunarli</button>
+      <div id="confirm_modal">
+        <div id="all-confirm" class="modal">
+          <div class="img-confirm">
+            <div class="img-ellips-comfirm">
+              <img src="./assets/images/confirm.svg" alt="confirm">
+            </div>
+          </div>
+          <h1>So’rovingiz <br> <span class="green">muvaffaqiyatli yuborildi!</span> </h1>
+          <p>Operatorlar tez orada siz bilan aloqaga <br> chiqishadi, salomat bo’ling!</p>
+          <button id="confermed" class="btn-confermed">Tushunarli</button>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-  </div>
-  
-    <!-- Modallar tugadi -->
-    <script>
-      let mybutton = document.getElementById("btn-modal"),
+
+  <!-- Modallar tugadi -->
+  <script>
+    let mybutton = document.getElementById("btn-modal"),
       confirm = document.getElementById("confirm")
-      
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
       }
-      
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        window.scrollTo({
-      behavior: 'smooth'
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      window.scrollTo({
+        behavior: 'smooth'
+      });
+    }
+    document.getElementById('btn-modal').addEventListener('click', function (event) {
+      event.preventDefault()
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      document.getElementById('overlay').classList.add('is-visible');
+      document.getElementById('modal').classList.add('is-visible');
     });
-      }
-      document.getElementById('btn-modal').addEventListener('click', function(event) {
-           event.preventDefault()
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    document.getElementById('overlay').classList.add('is-visible');
-    document.getElementById('modal').classList.add('is-visible');
-  });
-  
-  document.getElementById('close-btn').addEventListener('click', function() {
-    document.getElementById('overlay').classList.remove('is-visible');
-    document.getElementById('modal').classList.remove('is-visible');
-  });
-  document.getElementById('overlay').addEventListener('click', function() {
-    document.getElementById('overlay').classList.remove('is-visible');
-    document.getElementById('modal').classList.remove('is-visible');
-    document.getElementById("all-confirm").classList.remove('is-visible');
-  });
-  
-  
+
+    document.getElementById('close-btn').addEventListener('click', function () {
+      document.getElementById('overlay').classList.remove('is-visible');
+      document.getElementById('modal').classList.remove('is-visible');
+    });
+    document.getElementById('overlay').addEventListener('click', function () {
+      document.getElementById('overlay').classList.remove('is-visible');
+      document.getElementById('modal').classList.remove('is-visible');
+      document.getElementById("all-confirm").classList.remove('is-visible');
+    });
+
+    function submitSection(){
+      window.scrollTo({
+        top:7507,
+        left:0,
+        behavior:"smooth"
+      });
+    }
 
     // confirm function
-    confirm.addEventListener('click',function(event){
+    confirm.addEventListener('click', function (event) {
       event.preventDefault()
       modal.classList.remove('is-visible');
       document.getElementById("all-confirm").classList.add('is-visible');
     });
-    document.getElementById('confermed').addEventListener('click',function(event){
+    document.getElementById('confermed').addEventListener('click', function (event) {
       event.preventDefault()
       document.getElementById("all-confirm").classList.remove('is-visible');
       document.getElementById('overlay').classList.remove('is-visible');
     })
-      </script>
+  </script>
 </body>
 
 </html>

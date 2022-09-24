@@ -208,7 +208,7 @@ nav {
   align-items: center;
 }
 
-.hero-first-content .question-section .undov {
+ .undov {
   background-color: #19a852;
   border-radius: 50%;
   padding: 5px 12px;
@@ -488,14 +488,16 @@ nav {
 }
 
 .about_course_wrap {
-  display: flex;
-  justify-content: space-between;
+ display: grid;
+ grid-template-columns: repeat(2,50%);
+ grid-template-rows: auto;
   gap: 2%;
 }
 
 #about_course {
   background-color: #effef5;
   font-family: Gilroy, sans-serif;
+padding-bottom: 60px;
 }
 
 .about_course_title {
@@ -549,6 +551,54 @@ nav {
   line-height: 140%;
   color: #34423a;
 }
+
+.about_course_right_wrap{
+  position: relative;
+}
+.top-conf{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  gap: 2%;
+}
+.h3{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+color: #567763;
+}
+.sp span{
+  margin-top: 22px;
+  margin-right: 20px;
+  margin-left: 0;
+}
+.ellipse-about{
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px dashed #34423a;
+    padding: 10px;
+}
+
+
+.ellipse-aboutbg{
+  background: #ABD8C4;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.about_course_right_wrap img{
+  width: 100%;
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  height: auto;
+}
+
 
 /* About Course section end */
 
@@ -1256,6 +1306,73 @@ nav {
   }
 
   /* FOR WHOM SECTION RESPONSIVE END */
+
+  /* ABOUT COURSE SECTION RESPONSIVE START  */
+
+  .about_course_wrap {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35vh auto;
+    gap: 2%;
+}
+
+.about_course_title {
+  font-size: 32px;
+  padding: 1.75rem 0 1.5rem 0;
+}
+
+.about_course_right_wrap{
+  position: relative;
+  grid-row-start:1;
+}
+
+.about_course_left_wrap {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+.about_course_item {
+  width: 100%;
+  padding: 20px;
+  background: #e4fbed;
+  border: 1px dashed #abd8c4;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+  box-sizing: border-box;
+}
+
+.ellipse-about {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  height: 115px;
+  border-radius: 50%;
+  border: 1px dashed #34423a;
+  padding: 10px;
+}
+.about_course_right_wrap img {
+  width: 96%;
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  height: auto;
+}
+.h3{
+  font-size: 16px;
+}
+.about_course_item_title{
+  font-size: 20px;
+}
+.about_course_item p{
+  font-size: 16px;
+}
+
+
+  /* ABOUT COURSE SECTION RESPONSIVE END  */
 
   /* COURSE PROJECTS RESPONSIVE SECTION START  */
 

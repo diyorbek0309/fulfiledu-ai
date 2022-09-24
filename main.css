@@ -929,6 +929,76 @@ border-radius: 50%;
 }
 /* WHY-COURSE SECTION STYLES END  */
 
+/* EXTRA CHANGE STYLES START  */
+
+.extra_chance_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.extra_chance_left {
+  width: 50%;
+  margin: auto;
+}
+
+.extra-change-underline{
+  width: 30rem;
+  height: 460px;
+  padding: 15px;
+  border: 1px dashed #3CB27F;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.extra-change-ellipse{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #D7F0E1 0%, #CDE4D6 100%);
+  border-radius: 50%;
+}
+
+.extra_chance_left img {
+  width: 82%;
+  margin-top: -20px;
+  margin-left: 35px;
+  height: auto;
+}
+
+.extra_chance_right {
+  width: 50%;
+  margin: auto;
+}
+
+.extra_chance_right_title {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125%;
+}
+
+.extra_chance_right_text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #193c3f;
+}
+.extra_chance_right_text2 {
+  color: #193c3f;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+/* EXTRA CHANGE STYLES END  */
+
 /* FOOTER SECTION START  */
 
 .footer {
@@ -1524,72 +1594,53 @@ border-radius: 50%;
   }
 
   /* WHY-COURSE RESPONSIVE STYLE END  */
+  
+  
+  /* EXTRA CHANGE RESPONSIVE START  */
 
-  /* FOOTER RESPONSIVE SECTION START  */
-
-  .footer h1 {
-    font-size: 14px;
+  .extra_chance_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
   }
-  /* FOOTER RESPONSIVE SECTION END  */
-  /* MODAL SECTION RESPONSIVE START  */
+ 
+  .extra_chance_left {
+    width: 100%;
+    margin: auto;
+  }
 
-  .apply-section-left-title {
+  .extra-change-underline {
+    width: 19.3rem;
+    height: 292px;
+    padding: 15px;
+    border: 1px dashed #3CB27F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .extra_chance_right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .extra_chance_right_title {
     font-size: 32px;
-  }
-
-  /* MODAL SECTION RESPONSIVE START  */
 }
 
-/* Responsive  end*/
-
-/* For_whom boshlandi */
-/* extra__chance boshlandi */
-.extra_chance_container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.extra_chance_right {
-  width: 53%;
-}
-
-.extra_chance_right_title {
-  width: 394px;
-  height: 75px;
-  font-family: "Staatliches";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 125%;
-}
 
 .extra_chance_right_title-right {
   color: #19a852;
 }
 
 .extra_chance_right_text {
-  width: 595px;
-  height: 196px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  color: #193c3f;
+  font-size: 16px;
 }
 
 .extra_chance_right_text2 {
-  color: #193c3f;
-  width: 589px;
-  height: 68px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 140%;
+  font-size: 18px;
 }
 
 .extra_chance_right_text21 {
@@ -1628,65 +1679,30 @@ border-radius: 50%;
   flex-grow: 0;
 }
 
-@media (max-width: 1250px) {
-  .extra_chance_container {
-    margin-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+
+
+
+  /* EXTRA CHANGE RESPONSIVE END  */
+
+
+  /* FOOTER RESPONSIVE SECTION START  */
+
+  .footer h1 {
+    font-size: 14px;
+  }
+  /* FOOTER RESPONSIVE SECTION END  */
+  /* MODAL SECTION RESPONSIVE START  */
+
+  .apply-section-left-title {
+    font-size: 32px;
   }
 
-  .extra_chance_left {
-    width: 500px;
-  }
-
-  .extra_chance_right {
-    width: 45%;
-  }
+  /* MODAL SECTION RESPONSIVE START  */
 }
 
-@media (max-width: 1130px) {
-  .extra_chance_container {
-    margin-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    align-items: center;
-  }
+/* Responsive  end*/
 
-  .extra_chance_left {
-    width: 400px;
-  }
-
-  .extra_chance_right {
-    width: 40%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .extra_chance_left {
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 450px;
-  }
-}
-
-@media (max-width: 770px) {
-  .extra_chance_container {
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-wrap: wrap;
-  }
-
-  .extra_chance_left {
-    width: 400px;
-    margin: auto;
-  }
-
-  .extra_chance_right {
-    width: 100%;
-    margin: auto;
-  }
-}
+/* For_whom boshlandi */
 
 /* apply boshlandi tugadi */
 

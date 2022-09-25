@@ -51,13 +51,7 @@ document.getElementById("overlay").addEventListener("click", function () {
   document.getElementById("scrollBlock").classList.remove("scrollNone");
 });
 
-function submitSection() {
-  window.scrollTo({
-    top: 7507,
-    left: 0,
-    behavior: "smooth",
-  });
-}
+
 
 // confirm function
 confirm.addEventListener("click", function (event) {

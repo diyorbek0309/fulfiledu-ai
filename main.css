@@ -1277,6 +1277,7 @@ nav {
 
   .menubtn {
     display: block;
+    margin-left: 10px;
   }
 
   .navbar ul {

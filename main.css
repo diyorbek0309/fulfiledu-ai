@@ -1269,6 +1269,13 @@ nav {
 
 @media (max-width: 768px) {
   /* NAVBAR Responsive START  */
+
+  .container-start {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
   .navbar img {
     display: inline-block;
     width: 65px;
@@ -1360,13 +1367,14 @@ nav {
   }
 
   .hero-second-content .image-right .ellepse-under {
-    width: 334px;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     border: 1px dashed #3cb27f;
     border-radius: 50%;
-    margin-left: -30px;
-  }
-
+    margin-left: 0px;
+    display: inline-block;
+    padding: 10px;
+}
   .hero-second-content .image-right .ellepse {
     width: 300px;
     height: 302px;
@@ -1376,15 +1384,14 @@ nav {
 
   .hero-second-content .image-right img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 334px;
-    height: 330px;
-  }
-
+    top: 75px;
+    left: 47px;
+    width: 310px;
+    height: 310px;
+}
   .image-right {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 0;
   }
 
   .lessons {

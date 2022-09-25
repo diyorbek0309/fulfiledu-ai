@@ -1805,6 +1805,12 @@ nav {
   .apply-section-left-title1{
     font-size: 18px;
   }
+  #all-confirm h1 {
+    font-size: 22px;
+  }
+  #all-confirm p {
+    font-size: 14px;
+  }
   
 
   /* MODAL SECTION RESPONSIVE START  */

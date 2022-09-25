@@ -208,7 +208,7 @@ nav {
   align-items: center;
 }
 
- .undov {
+.undov {
   background-color: #19a852;
   border-radius: 50%;
   padding: 5px 12px;
@@ -325,7 +325,7 @@ nav {
 
 .teacher-box {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   column-gap: 5rem;
   margin: 20px 0;
 }
@@ -488,16 +488,16 @@ nav {
 }
 
 .about_course_wrap {
- display: grid;
- grid-template-columns: repeat(2,50%);
- grid-template-rows: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto;
   gap: 2%;
 }
 
 #about_course {
   background-color: #effef5;
   font-family: Gilroy, sans-serif;
-padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .about_course_title {
@@ -552,53 +552,51 @@ padding-bottom: 60px;
   color: #34423a;
 }
 
-.about_course_right_wrap{
+.about_course_right_wrap {
   position: relative;
 }
-.top-conf{
+.top-conf {
   display: grid;
   grid-template-columns: 10% 90%;
   gap: 2%;
 }
-.h3{
-  font-family: 'Gilroy';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 140%;
-color: #567763;
+.h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #567763;
 }
-.sp span{
+.sp span {
   margin-top: 22px;
   margin-right: 20px;
   margin-left: 0;
 }
-.ellipse-about{
-    position: absolute;
-    bottom: 80px;
-    left: 10px;
-    width: 100%;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px dashed #34423a;
-    padding: 10px;
+.ellipse-about {
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px dashed #34423a;
+  padding: 10px;
 }
 
-
-.ellipse-aboutbg{
-  background: #ABD8C4;
-width: 100%;
-height: 100%;
-border-radius: 50%;
+.ellipse-aboutbg {
+  background: #abd8c4;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
-.about_course_right_wrap img{
+.about_course_right_wrap img {
   width: 100%;
   position: absolute;
   bottom: -7px;
   left: 0px;
   height: auto;
 }
-
 
 /* About Course section end */
 
@@ -943,20 +941,20 @@ border-radius: 50%;
   margin: auto;
 }
 
-.extra-change-underline{
+.extra-change-underline {
   width: 30rem;
   height: 460px;
   padding: 15px;
-  border: 1px dashed #3CB27F;
+  border: 1px dashed #3cb27f;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.extra-change-ellipse{
+.extra-change-ellipse {
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #D7F0E1 0%, #CDE4D6 100%);
+  background: linear-gradient(180deg, #d7f0e1 0%, #cde4d6 100%);
   border-radius: 50%;
 }
 
@@ -998,6 +996,124 @@ border-radius: 50%;
 }
 
 /* EXTRA CHANGE STYLES END  */
+
+/* apply boshlandi tugadi */
+
+.apply-section-container {
+  display: grid;
+  grid-template-columns: 54% 46%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.apply-section-left {
+  width: auto;
+}
+
+.apply-section-left-title {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125%;
+  color: #193c3f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.apply-section-left-title-green {
+  color: #19a852;
+}
+
+.apply-section-left-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.apply-section-varning-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.apply-section-varning-container img {
+  margin-right: 10px;
+}
+
+.apply-section-varning-container b {
+  width: 289px;
+  height: 28px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.apply-section-form input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 18px;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  background: #eff5f2;
+  border: 1px solid #b1cbbb;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+
+.apply-section-form button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 13px 98px;
+  gap: 10px;
+  width: 100%;
+  height: 48px;
+  background: #19a852;
+  border-radius: 12px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.apply-section-right {
+  order: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.apply-section-right img {
+  width: 543px;
+  transform: rotate(0deg);
+}
+
+.down-arrow {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+#up_btn {
+  display: none;
+}
+
+/* apply section tugadi */
 
 /* FOOTER SECTION START  */
 
@@ -1301,7 +1417,7 @@ border-radius: 50%;
   /* HERO SECTION Responsive END!!  */
 
   .teacher-box {
-    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   .teacher-img img {
     width: 335px;
@@ -1384,63 +1500,62 @@ border-radius: 50%;
     grid-template-columns: 100%;
     grid-template-rows: 35vh auto;
     gap: 2%;
-}
+  }
 
-.about_course_title {
-  font-size: 32px;
-  padding: 1.75rem 0 1.5rem 0;
-}
+  .about_course_title {
+    font-size: 32px;
+    padding: 1.75rem 0 1.5rem 0;
+  }
 
-.about_course_right_wrap{
-  position: relative;
-  grid-row-start:1;
-}
+  .about_course_right_wrap {
+    position: relative;
+    grid-row-start: 1;
+  }
 
-.about_course_left_wrap {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  row-gap: 1rem;
-  justify-content: center;
-  width: 100%;
-}
-.about_course_item {
-  width: 100%;
-  padding: 20px;
-  background: #e4fbed;
-  border: 1px dashed #abd8c4;
-  border-radius: 0.75rem;
-  margin-bottom: 1.25rem;
-  box-sizing: border-box;
-}
+  .about_course_left_wrap {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+  .about_course_item {
+    width: 100%;
+    padding: 20px;
+    background: #e4fbed;
+    border: 1px dashed #abd8c4;
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+  }
 
-.ellipse-about {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 90%;
-  height: 115px;
-  border-radius: 50%;
-  border: 1px dashed #34423a;
-  padding: 10px;
-}
-.about_course_right_wrap img {
-  width: 96%;
-  position: absolute;
-  bottom: 8px;
-  left: 8px;
-  height: auto;
-}
-.h3{
-  font-size: 16px;
-}
-.about_course_item_title{
-  font-size: 20px;
-}
-.about_course_item p{
-  font-size: 16px;
-}
-
+  .ellipse-about {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 90%;
+    height: 115px;
+    border-radius: 50%;
+    border: 1px dashed #34423a;
+    padding: 10px;
+  }
+  .about_course_right_wrap img {
+    width: 96%;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    height: auto;
+  }
+  .h3 {
+    font-size: 16px;
+  }
+  .about_course_item_title {
+    font-size: 20px;
+  }
+  .about_course_item p {
+    font-size: 16px;
+  }
 
   /* ABOUT COURSE SECTION RESPONSIVE END  */
 
@@ -1594,8 +1709,7 @@ border-radius: 50%;
   }
 
   /* WHY-COURSE RESPONSIVE STYLE END  */
-  
-  
+
   /* EXTRA CHANGE RESPONSIVE START  */
 
   .extra_chance_container {
@@ -1604,7 +1718,7 @@ border-radius: 50%;
     margin-top: 50px;
     flex-wrap: wrap;
   }
- 
+
   .extra_chance_left {
     width: 100%;
     margin: auto;
@@ -1614,12 +1728,12 @@ border-radius: 50%;
     width: 19.3rem;
     height: 292px;
     padding: 15px;
-    border: 1px dashed #3CB27F;
+    border: 1px dashed #3cb27f;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .extra_chance_right {
     width: 100%;
@@ -1628,62 +1742,57 @@ border-radius: 50%;
 
   .extra_chance_right_title {
     font-size: 32px;
-}
+  }
 
+  .extra_chance_right_title-right {
+    color: #19a852;
+  }
 
-.extra_chance_right_title-right {
-  color: #19a852;
-}
+  .extra_chance_right_text {
+    font-size: 16px;
+  }
 
-.extra_chance_right_text {
-  font-size: 16px;
-}
+  .extra_chance_right_text2 {
+    font-size: 18px;
+  }
 
-.extra_chance_right_text2 {
-  font-size: 18px;
-}
+  .extra_chance_right_text21 {
+    color: #19a852;
+  }
 
-.extra_chance_right_text21 {
-  color: #19a852;
-}
+  .extra_chance_right_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 13px 98px;
+    gap: 10px;
+    width: 320px;
+    height: 50px;
+    background: #19a852;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
 
-.extra_chance_right_button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 13px 98px;
-  gap: 10px;
-  width: 320px;
-  height: 50px;
-  background: #19a852;
-  border-radius: 12px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.extra_chance_right_button_text {
-  width: 124px;
-  height: 24px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: flex-end;
-  color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-
-
+  .extra_chance_right_button_text {
+    width: 124px;
+    height: 24px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 
   /* EXTRA CHANGE RESPONSIVE END  */
-
 
   /* FOOTER RESPONSIVE SECTION START  */
 
@@ -1698,144 +1807,50 @@ border-radius: 50%;
   }
 
   /* MODAL SECTION RESPONSIVE START  */
-}
 
-/* Responsive  end*/
+  /* APPLY SECTION RESPONSIVE START */
 
-/* For_whom boshlandi */
-
-/* apply boshlandi tugadi */
-
-.apply-section-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 40px;
-}
-
-.apply-section-left-title {
-  /* width: 632px;
-  height: 150px; */
-  font-family: "Staatliches";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 125%;
-  color: #193c3f;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.apply-section-left-title-green {
-  color: #19a852;
-}
-
-.apply-section-left-text {
-  width: 619px;
-  height: 56px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  color: #000000;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.apply-section-varning-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.apply-section-varning-container img {
-  margin-right: 10px;
-}
-
-.apply-section-varning-container b {
-  width: 289px;
-  height: 28px;
-  font-family: "Gilroy";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 140%;
-  color: #000000;
-}
-
-.apply-section-form input {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 13px 18px;
-  gap: 10px;
-  width: 100%;
-  height: 48px;
-  background: #eff5f2;
-  border: 1px solid #b1cbbb;
-  border-radius: 12px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-bottom: 20px;
-}
-
-.apply-section-form button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 13px 98px;
-  gap: 10px;
-  width: 100%;
-  height: 48px;
-  background: #19a852;
-  border-radius: 12px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-
-.apply-section-right {
-  width: 543px;
-}
-
-.down-arrow {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-}
-
-#up_btn {
-  display: none;
-}
-
-@media (max-width: 700px) {
   .apply-section-container {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin-top: 40px;
   }
 
   .apply-section-right {
     order: -1;
+    margin-top: 40px;
+    margin-bottom: 25px;
   }
 
   .down-arrow {
     position: absolute;
     margin-top: 880px;
   }
+  .apply-section-right img {
+    width: 100%;
+    transform: rotate(270deg);
+  }
+
+  .apply-section-left {
+    width: 100%;
+  }
+  .apply-section-left-text {
+    font-size: 16px;
+  }
+  .apply-section-varning-container b {
+    font-size: 16px;
+  }
+  .apply-section-form button {
+    padding: 0;
+  }
+
+  /* APPLY SECTION RESPONSIVE END */
 }
 
-/* apply section tugadi */
+/* Responsive  end*/
+
+/* For_whom boshlandi */
 
 @media (min-width: 1367px) {
   .hero-second-content .image-right img {

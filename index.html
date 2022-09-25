@@ -95,7 +95,7 @@
                 <span class="green"> chegirmaga </span>ega bo’ling!
               </p>
               <button class="btn" onclick="submitSection()">
-                Kursga yozilish
+                 Kursga yozilish
               </button>
             </div>
             <div class="hero-second-content">
@@ -726,8 +726,8 @@
       <!-- Extra_chance section tugadi -->
 
       <!-- Apply section boshlandi -->
-
-      <div class="apply-section-container">
+<div class="container">
+      <div class="apply-section-container" id="apply">
         <div class="apply-section-left">
           <h1 class="apply-section-left-title">
             <span class="apply-section-left-title-green">KURS VA USTOZ</span>
@@ -744,8 +744,9 @@
             >
           </div>
           <form class="apply-section-form">
-            <input type="text" name="firstname" placeholder="Ism" required />
-            <input type="text" name="lastname" placeholder="Familya" required />
+            <input type="text" name="firstname" placeholder="Ism Familiyangiz" required />
+            <input type="text" name="lastname" placeholder="Telefon raqamingiz" required />
+            <input type="text" name="username" placeholder="Telegram username" required />
             <button id="btn-modal" class="btn" onclick="modalOpen(event)">
               Bir haftalik bepul darsga qatnashish
             </button>
@@ -753,12 +754,12 @@
         </div>
         <div class="apply-section-right">
           <img
-            class="apply-section-right"
             src="./assets/images/hand.png"
             alt="img"
           />
         </div>
       </div>
+    </div>
       <!-- Apply section tugadi -->
     </main>
 
@@ -789,13 +790,19 @@
                 <input
                   type="text"
                   name="firstname"
-                  placeholder="Ism"
+                  placeholder="Ism familiyangiz"
                   required
                 />
                 <input
                   type="text"
                   name="lastname"
-                  placeholder="Familya"
+                  placeholder="Telefon raqamingiz"
+                  required
+                />
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Telegram username"
                   required
                 />
                 <button class="btn" id="confirm">Kursga yozilish</button>

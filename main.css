@@ -1845,6 +1845,9 @@ nav {
 .modal {
   max-width: 80%;
 }
+#btn-modal{
+  font-size: 14px;
+}
 }
 
 /* Responsive  end*/

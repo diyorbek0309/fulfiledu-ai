@@ -65,15 +65,6 @@ nav {
   justify-content: space-between;
 }
 
-.menubtn {
-  border: none;
-  background: transparent;
-  margin-left: -60px;
-  cursor: pointer;
-  transition: 0.5s ease;
-  color: #193c3f;
-  display: none;
-}
 
 .navbar ul {
   display: inline-block;
@@ -939,6 +930,7 @@ nav {
 .extra_chance_left {
   width: 50%;
   margin: auto;
+  display: inline-block;
 }
 
 .extra-change-underline {
@@ -1091,6 +1083,7 @@ nav {
   position: fixed;
   right: 30px;
   bottom: 30px;
+  width: 50px;
 }
 
 #up_btn {
@@ -1267,9 +1260,7 @@ nav {
     margin-right: 10px;
   }
 
-  .menubtn {
-    display: block;
-  }
+ 
 
   .navbar ul {
     display: none;
@@ -1320,6 +1311,7 @@ nav {
   .hero-first-content {
     width: 90%;
     margin: 0 auto;
+    padding-right: 0;
   }
 
   .hero-first-content h1 {
@@ -1346,10 +1338,17 @@ nav {
   }
 
   .hero-second-content {
-    padding-right: 12px;
+    /* padding-right: 12px; */
     grid-row-start: 1;
+    display: inline-block;
   }
-
+  .image-right {
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .hero-second-content .image-right .ellepse-under {
     width: 300px;
     height: 300px;
@@ -1367,16 +1366,10 @@ nav {
   }
 
   .hero-second-content .image-right img {
-    position: absolute;
-    top: 75px;
-    left: 47px;
     width: 310px;
     height: 310px;
 }
-  .image-right {
-    width: 100%;
-    margin: 0 0;
-  }
+  
 
   .lessons {
     position: absolute;
@@ -1410,6 +1403,7 @@ nav {
 
   .teacher-box {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .teacher-img img {
     width: 300px;
@@ -1535,7 +1529,7 @@ nav {
   .about_course_right_wrap img {
     width: 96%;
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     left: 8px;
     height: auto;
   }
@@ -1714,6 +1708,9 @@ nav {
   .extra_chance_left {
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .extra-change-underline {
@@ -1831,8 +1828,10 @@ nav {
   }
 
   .down-arrow {
-    position: absolute;
-    margin-top: 880px;
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    width: 50px;
   }
   .apply-section-right img {
     width: 100%;

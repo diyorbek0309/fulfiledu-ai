@@ -51,8 +51,6 @@ document.getElementById("overlay").addEventListener("click", function () {
   document.getElementById("scrollBlock").classList.remove("scrollNone");
 });
 
-
-
 // confirm function
 confirm.addEventListener("click", function (event) {
   event.preventDefault();

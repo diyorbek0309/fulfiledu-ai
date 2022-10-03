@@ -1059,7 +1059,26 @@ nav {
   align-items: center;
   padding: 13px 18px;
   gap: 10px;
+  width: 80%;
+  /* margin: 0 auto 20px auto; */
+  height: 48px;
+  background: #eff5f2;
+  border: 1px solid #b1cbbb;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}
+.apply-section-form-modal input{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 18px;
+  gap: 10px;
   width: 100%;
+  /* margin: 0 auto 20px auto; */
   height: 48px;
   background: #eff5f2;
   border: 1px solid #b1cbbb;
@@ -1084,6 +1103,8 @@ nav {
   right: 30px;
   bottom: 30px;
   width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 #up_btn {
@@ -1788,6 +1809,10 @@ nav {
 
   /* EXTRA CHANGE RESPONSIVE END  */
 
+  .apply-section-form input {
+    width: 100%;
+  }
+
   /* FOOTER RESPONSIVE SECTION START  */
 
   .footer h1 {
@@ -1832,6 +1857,7 @@ nav {
     right: 35px;
     bottom: 35px;
     width: 50px;
+   
   }
   .apply-section-right img {
     width: 100%;
